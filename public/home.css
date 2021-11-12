@@ -55,7 +55,9 @@ a .dropbtn {
   text-decoration: none;
   display: block;
 }
-
+.dropdown button {
+  align-self: center;
+}
 .dropdown-content a:hover {
   background-color: #ddd;
 }

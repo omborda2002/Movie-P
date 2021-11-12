@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans&family=Orbitron:wght@500&family=Roboto+Mono&family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans&family=Orbitron:wght@500&family=Oswald&family=Roboto+Mono&family=Titillium+Web&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mohave&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mohave&family=Roboto&display=swap");
 .container-sm {
   display: block;
   flex-direction: column;
@@ -36,7 +36,9 @@ a .dropbtn {
   border: 3px solid rgb(105, 244, 24);
   transition: 500ms;
 }
-
+.dropdown button {
+  align-self: center;
+}
 .dropdown-content {
   border-radius: 5px;
   display: none;
@@ -323,7 +325,7 @@ i.bi.bi-chevron-down {
   letter-spacing: 0.5px;
   margin: 1.5%;
   font-weight: 500;
-  font-family: 'Mohave', sans-serif;
+  font-family: "Mohave", sans-serif;
   margin-bottom: 5%;
   padding: 1%;
 }
@@ -541,7 +543,8 @@ i.bi.bi-chevron-down {
   .other_movies_head {
     flex-direction: column;
     align-items: center;
-  }.resolution_wise {
+  }
+  .resolution_wise {
     font-size: 22px;
   }
 }
