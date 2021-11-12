@@ -32,7 +32,7 @@ a .dropbtn {
 
 .dropbtn:hover {
   opacity: 0.95;
-  border: 3px solid rgb(105, 244, 24);
+  border: 3px solid #ffffff;
   transition: 500ms;
 }
 
@@ -55,7 +55,12 @@ a .dropbtn {
   text-decoration: none;
   display: block;
 }
-
+.dropdown button{
+  background-color: rgb(31,110,235);
+}
+.dropdown{
+  align-self: center;
+}
 .dropdown-content a:hover {
   background-color: #ddd;
 }
@@ -97,7 +102,7 @@ i.bi.bi-chevron-down {
   width: 100%;
   padding-top: 0px;
   padding: 1%;
-  background-color: black;
+  background-color: rgb(0,10,29);
 }
 
 /* FIXME: Random Section */
@@ -126,8 +131,9 @@ i.bi.bi-chevron-down {
   flex-direction: row;
   cursor: pointer;
   height: auto;
+  box-shadow: 0 3px 10px rgb(58 134 255 / 0.2);
   margin-top: 4%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(22,27,34);
   font-family: "Oswald", sans-serif;
 }
 .images_post:hover {
@@ -143,7 +149,7 @@ i.bi.bi-chevron-down {
   text-align: center;
   align-self: center;
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(250, 249, 249);
 }
 
 .name_otherPosts button {
@@ -157,7 +163,7 @@ i.bi.bi-chevron-down {
 /* TODO: footer */
 .foooter {
   width: 100%;
-  background-color: #16425b;
+  background-color: rgb(0,10,29);
   height: 50px;
   text-align: center;
 }

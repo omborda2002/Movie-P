@@ -50,6 +50,9 @@ a .dropbtn {
   transform: rotate(0.5turn);
   transition: 500ms;
 }
+.dropdown button{
+  align-self: center;
+}
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
