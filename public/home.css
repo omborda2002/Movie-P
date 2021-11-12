@@ -97,8 +97,9 @@ i.bi.bi-chevron-down {
   width: 100%;
   padding-top: 0px;
   padding: 1%;
-  background-color: black;
+  background-color: #11151c;
 }
+/* fdf0d5   2b2d42  adb5bd  424b54 color bg */
 
 /* FIXME: Random Section */
 
@@ -157,7 +158,7 @@ i.bi.bi-chevron-down {
 /* TODO: footer */
 .foooter {
   width: 100%;
-  background-color: #16425b;
+  background-color: #001d3d;
   height: 50px;
   text-align: center;
 }
