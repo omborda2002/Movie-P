@@ -18,7 +18,10 @@ nav {
 a {
   text-align: center;
 }
-
+.iconSearch {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 a .dropbtn {
   border: 3px solid rgb(244, 197, 24);
   color: rgb(0, 0, 0) !important;
@@ -72,6 +75,7 @@ i.bi.bi-chevron-down {
 .row1 {
   display: flex;
   justify-content: space-around;
+  margin-top: 1%;
   width: 100%;
 }
 
