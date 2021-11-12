@@ -1,0 +1,26 @@
+{
+  "name": "movie_project_finel",
+  "version": "1.0.0",
+  "description": "Finel project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omborda2002/Movie-P.git"
+  },
+  "author": "Om Borda & Savan Gadhiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omborda2002/Movie-P/issues"
+  },
+  "homepage": "https://github.com/omborda2002/Movie-P#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mdb-ui-kit": "^3.9.0",
+    "nodemon": "^2.0.15",
+    "tailwindcss": "^2.2.19"
+  }
+}
