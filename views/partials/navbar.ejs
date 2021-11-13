@@ -24,12 +24,17 @@
 
         <div class="d-flex flex-row searchField">
           <div class="flex space-x-2 bothPadding">
-            <div class="input-group">
+            <form
+              action="http://localhost:3000/search"
+              class="input-group"
+              method="get"
+            >
               <div class="form-outline">
                 <input
                   id="search-input"
                   type="search"
                   id="form1"
+                  name="q"
                   style="color: white; background-color: #1b1b1b"
                   class="form-control"
                 />
@@ -37,10 +42,10 @@
                   >Search</label
                 >
               </div>
-              <button id="search-button" type="button" class="btn btn-primary">
+              <button id="search-button" type="submit" class="btn btn-primary">
                 <i class="fas fa-search"></i>
               </button>
-            </div>
+            </form>
           </div>
 
           <!-- FIXME: toggle button -->

@@ -14,6 +14,11 @@ app.get("/inner", (req, res) => {
   res.render("inner");
 });
 
+app.get("/search",(req,res) => {
+  console.log(req.query);
+  res.send("Ok Search !");
+})
+
 app.listen(3000, () => {
   console.log("Example app listening at http://localhost:3000");
 });
