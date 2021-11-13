@@ -123,6 +123,9 @@ i.bi.bi-chevron-down {
   flex-direction: row;
   flex-wrap: row;
 }
+.other_movies_head:last-child{
+  margin-bottom: 3%;
+}
 .images_post {
   width: 47%;
   display: flex;
