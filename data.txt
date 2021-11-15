@@ -258,177 +258,176 @@
     "other": {
       "popularity": 65
     }
-  },
-  {
-    "name": "Jai Bhim",
-    "year": 2021,
-    "imdb": 9.6,
-    "genre": "Crime",
-    "post_ss": "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",
-    "ss_url": {
-      "url_1": "https://imagetot.com/images/2021/11/01/80a41687721b5758f558700aa1e12490.png",
-      "url_2": "https://imagetot.com/images/2021/11/01/80b4afa86ab2c6d4db07b9fa5ca6f1dd.png",
-      "url_3": "https://imagetot.com/images/2021/11/01/f6ed420aa549dac22e49e268bb60cf47.png"
+  },  {
+    "name" : "Jai Bhim",
+    "year" : 2021,
+    "imdb" : 9.6,
+    "genre" : "Crime",
+    "post_ss" : "https://m.media-amazon.com/images/M/MV5BY2Y5ZWMwZDgtZDQxYy00Mjk0LThhY2YtMmU1MTRmMjVhMjRiXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",
+    "ss_url" : {
+      "url_1" : "https://imagetot.com/images/2021/11/01/80a41687721b5758f558700aa1e12490.png",
+      "url_2" : "https://imagetot.com/images/2021/11/01/80b4afa86ab2c6d4db07b9fa5ca6f1dd.png",
+      "url_3" : "https://imagetot.com/images/2021/11/01/f6ed420aa549dac22e49e268bb60cf47.png"
     },
-    "download_links": {
-      "480": "https://veryfastdownload.pw/v2/download2.php?link=WGlZVHJDSCtZTHR3L29TaWpuQXFTdz09",
-      "720": "https://veryfastdownload.pw/v2/download2.php?link=UllKT2JScXhoSnp6Wnp5RDFLaFhpQT09",
-      "1080": "https://veryfastdownload.pw/v2/download2.php?link=NlhmRHUvLzVwNWdtb2hWdFJqT0U0dz09"
+    "download_links" : {
+      "480" : "https://veryfastdownload.pw/v2/download2.php?link=WGlZVHJDSCtZTHR3L29TaWpuQXFTdz09",
+      "720" : "https://veryfastdownload.pw/v2/download2.php?link=UllKT2JScXhoSnp6Wnp5RDFLaFhpQT09",
+      "1080" : "https://veryfastdownload.pw/v2/download2.php?link=NlhmRHUvLzVwNWdtb2hWdFJqT0U0dz09"
     },
-    "language": "Hindi",
-    "type": "bollywood",
-    "other": {
-      "length": "3h 6min",
-      "popularity": 65
+    "language" : "Hindi",
+    "type" : "bollywood",
+    "other" : {
+      "length" : "3h 6min",
+      "popularity" : 65
     }
-  },
-  {
+  },    {
     "name": "Ek Thi Begum",
     "episodes": 12,
-    "season": 1,
+    "season":1,
     "year": 2020,
     "imdb": 9,
     "genre": "crime",
     "post_ss": "https://m.media-amazon.com/images/M/MV5BMjRkOGMxMjctYjZlYi00ZWRmLWJlZGEtNjc2ZmQ5MzMzNDE2XkEyXkFqcGdeQXVyMTE0Nzg1NjQ2._V1_FMjpg_UX1000_.jpg",
     "ss_url": {
-      "url_1": "https://myimg.bid/images/2021/10/02/Ek.Thi-2cefad3e9d6a8c579.jpg",
-      "url_2": "https://myimg.bid/images/2021/10/02/Ek.Thi-54a58cdc951a4abca.jpg",
-      "url_3": "https://myimg.bid/images/2021/10/02/Ek.Thi-53e79a60e91e36f70f.jpg"
+        "url_1": "https://myimg.bid/images/2021/10/02/Ek.Thi-2cefad3e9d6a8c579.jpg",
+        "url_2": "https://myimg.bid/images/2021/10/02/Ek.Thi-54a58cdc951a4abca.jpg",
+        "url_3": "https://myimg.bid/images/2021/10/02/Ek.Thi-53e79a60e91e36f70f.jpg"
     },
     "download_links": {
-      "Episode 1": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nUlJQdW5KeWlYMTdzNGJVNg==",
-      "Episode 2": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9xbm5RS3dqR3dLMTlnSkgxNw==",
-      "Episode 3": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9TU0dKMXBWN1hiZlNEN3ROQQ==",
-      "Episode 4": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC91U2VYU0I3a1pBcGJIVTNROQ==",
-      "Episode 5": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC84bnNxeUo2NWFRUWJtaEQ3OA==",
-      "Episode 6": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9BOEpRWGh2UDJvWEpya0tZNw==",
-      "Episode 7": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9BOEpRWGh2UDJvWEpya0tZNw==",
-      "Episode 8": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC92Y2ozYzY2dDRkYTd0UVkyOA==",
-      "Episode 9": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nYmQxamZlTnRqR1IyVEpwOQ==",
-      "Episode 10": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9SVExyWHl0MVdvTnRnWWdROQ==",
-      "Episode 11": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC84c2tqZUJHd0tmZDNnTDdRNw==",
-      "Episode 12": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9pU3o2TEg2Nzg2OXJqUmpTOA=="
+        "Episode 1": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nUlJQdW5KeWlYMTdzNGJVNg==",
+        "Episode 2": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9xbm5RS3dqR3dLMTlnSkgxNw==",
+        "Episode 3": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9TU0dKMXBWN1hiZlNEN3ROQQ==",
+        "Episode 4": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC91U2VYU0I3a1pBcGJIVTNROQ==",
+        "Episode 5": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC84bnNxeUo2NWFRUWJtaEQ3OA==",
+        "Episode 6": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9BOEpRWGh2UDJvWEpya0tZNw==",
+        "Episode 7": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9BOEpRWGh2UDJvWEpya0tZNw==",
+        "Episode 8": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC92Y2ozYzY2dDRkYTd0UVkyOA==",
+        "Episode 9": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nYmQxamZlTnRqR1IyVEpwOQ==",
+        "Episode 10": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9SVExyWHl0MVdvTnRnWWdROQ==",
+        "Episode 11": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC84c2tqZUJHd0tmZDNnTDdRNw==",
+        "Episode 12": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9pU3o2TEg2Nzg2OXJqUmpTOA=="
     },
     "language": "Hindi",
     "type": "Web-Series",
     "other": {
-      "popularity": 65
+        "popularity": 65
     }
-  },
-  {
+},
+{
     "name": "Shiddat",
     "year": 2021,
     "imdb": 8,
     "genre": "Romance",
     "post_ss": "https://m.media-amazon.com/images/M/MV5BN2U2NzcyYWQtYWRkNi00NWE2LWFlN2UtMjY0MzJkMWQzZDI2XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",
     "ss_url": {
-      "url_1": "https://imagetot.com/images/2021/09/30/000885b74a2350dcbf87c0a419a81c34.png",
-      "url_2": "https://imagetot.com/images/2021/09/30/5afe8d0800785ec9885fdc4b98a9f6e0.png",
-      "url_3": "https://imagetot.com/images/2021/09/30/f8b9508918b11ad83d2617cba1457203.png"
+        "url_1": "https://imagetot.com/images/2021/09/30/000885b74a2350dcbf87c0a419a81c34.png",
+        "url_2": "https://imagetot.com/images/2021/09/30/5afe8d0800785ec9885fdc4b98a9f6e0.png",
+        "url_3": "https://imagetot.com/images/2021/09/30/f8b9508918b11ad83d2617cba1457203.png"
     },
     "download_links": {
-      "480": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nM2NtRzdNTUxKUEVpTjh1OQ==",
-      "720": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9KaGhEb1RpcWpxaVh5TFVjQQ==",
-      "1080": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9pWkpqZmtjQ1lRWld5VGZROQ=="
+        "480": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nM2NtRzdNTUxKUEVpTjh1OQ==",
+        "720": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9KaGhEb1RpcWpxaVh5TFVjQQ==",
+        "1080": "https://gpshares.com/r/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9pWkpqZmtjQ1lRWld5VGZROQ=="
     },
     "language": "Hindi",
     "type": "bollywood",
     "other": {
-      "length": "1h 46min",
-      "popularity": 35
+        "length": "1h 46min",
+        "popularity": 35
     }
-  },
-  {
+},
+{
     "name": "Chehre",
     "year": 2021,
     "imdb": 6.6,
     "genre": "drama",
     "post_ss": "https://m.media-amazon.com/images/M/MV5BNGFlOTVkMmMtOWE1OC00Y2Q1LThmNTctM2IxMWVkY2EyYjBlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
     "ss_url": {
-      "url_1": "https://myimg.bid/images/2021/09/30/vlcsnap-2021-10-01-00h48m27s996.png",
-      "url_2": "https://imagetot.com/images/2021/09/30/ab29a38a4e64dff21517e4bae5b8657d.png",
-      "url_3": "https://myimg.bid/images/2021/09/30/vlcsnap-2021-10-01-00h53m31s390.png"
+        "url_1": "https://myimg.bid/images/2021/09/30/vlcsnap-2021-10-01-00h48m27s996.png",
+        "url_2": "https://imagetot.com/images/2021/09/30/ab29a38a4e64dff21517e4bae5b8657d.png",
+        "url_3": "https://myimg.bid/images/2021/09/30/vlcsnap-2021-10-01-00h53m31s390.png"
     },
     "download_links": {
-      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9Mdng5YXhzR3dGNG9NUGtnNg==",
-      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9HbWR2MUI1dEFBclFzejI3Ng==",
-      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nRFo5Qmg3RmZjTFFSWUxxOQ=="
+        "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9Mdng5YXhzR3dGNG9NUGtnNg==",
+        "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9HbWR2MUI1dEFBclFzejI3Ng==",
+        "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9nRFo5Qmg3RmZjTFFSWUxxOQ=="
     },
     "language": "Hindi",
     "type": "bollywood",
     "other": {
-      "length": "3h 6min",
-      "popularity": 65
+        "length": "3h 6min",
+        "popularity": 65
     }
-  },
-  {
+},
+{
     "name": "Avane Srimannarayana",
     "year": 2019,
     "imdb": 7.9,
     "genre": "action",
     "post_ss": "https://m.media-amazon.com/images/M/MV5BMzJmNDBlMzUtMjJjMy00YjRjLTliY2MtNjcwMmExODYzYTZmXkEyXkFqcGdeQXVyOTMxMTk2MTc@._V1_.jpg",
-    "ss_url": {
-      "url_1": "https://imagetot.com/images/2021/09/26/cc228dbf69b2ad53ce27022cdafd47a3.th.png",
-      "url_2": "https://imagetot.com/images/2021/09/26/e674e78db408512c73b69e7d4da892bc.th.png"
-    },
-    "download_links": {
-      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ==",
-      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ==",
-      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ=="
-    },
-    "language": "Hindi",
-    "type": "bollywood",
-    "other": {
-      "length": "3h 6min",
-      "popularity": 55
-    }
-  },
-  {
-    "name": "Please Kill Me",
-    "year": 2021,
-    "imdb": 9.1,
+        "ss_url": {
+        "url_1": "https://imagetot.com/images/2021/09/26/cc228dbf69b2ad53ce27022cdafd47a3.th.png",
+        "url_2": "https://imagetot.com/images/2021/09/26/e674e78db408512c73b69e7d4da892bc.th.png"
 
-    "genre": "crime",
-    "post_ss": "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
-    "ss_url": {
-      "url_1": "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
     },
     "download_links": {
-      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
-      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
-      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+        "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ==",
+        "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ==",
+        "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC80bkp1RkN3OWpYd3RtTVpyNQ=="
     },
     "language": "Hindi",
     "type": "bollywood",
     "other": {
-      "length": "3h 6min",
-      "popularity": 65
+        "length": "3h 6min",
+        "popularity": 55
+    }
+},
+{
+    "name" : "Please Kill Me",
+    "year" : 2021,
+    "imdb" : 9.1,
+
+    "genre" : "crime",
+    "post_ss" : "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
+    "ss_url" : {
+      "url_1" : "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
+    },
+    "download_links" : {
+      "480" : "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
+      "720" : "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
+      "1080" : "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+    },
+    "language" : "Hindi",
+    "type" : "bollywood",
+    "other" : {
+      "length" : "3h 6min",
+      "popularity" : 65
     }
   },
   {
-    "name": "Kota Factory",
-    "episodes": 5,
+    "name" : "Kota Factory",
+    "episodes" : 5,
     "season": 2,
-    "year": 2021,
-    "imdb": 9.3,
-    "genre": "comedy",
-    "post_ss": "https://m.media-amazon.com/images/M/MV5BNWFlNTY5MzEtNDhhMy00YTRmLWJhYjMtM2JjODkyMGRkZmUzXkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_.jpg",
-    "ss_url": {
-      "url_1": "https://imagetot.com/images/2021/09/24/2cab7fdd4f9d48761166363662785a65.th.png",
-      "url_2": "https://imagetot.com/images/2021/09/24/6d018a5cb1bdd4fae17f168a57c5752f.th.png",
-      "url_3": "https://imagetot.com/images/2021/09/24/7a7c878dc1124e4793fc73b92ae34fba.th.png"
+    "year" : 2021,
+    "imdb" :9.3 ,
+    "genre" : "comedy",
+    "post_ss" : "https://m.media-amazon.com/images/M/MV5BNWFlNTY5MzEtNDhhMy00YTRmLWJhYjMtM2JjODkyMGRkZmUzXkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_.jpg",
+    "ss_url" : {
+      "url_1" : "https://imagetot.com/images/2021/09/24/2cab7fdd4f9d48761166363662785a65.th.png",
+      "url_2" : "https://imagetot.com/images/2021/09/24/6d018a5cb1bdd4fae17f168a57c5752f.th.png",
+      "url_3" : "https://imagetot.com/images/2021/09/24/7a7c878dc1124e4793fc73b92ae34fba.th.png"
     },
-    "download_links": {
-      "Episode 1": "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9J5VMXIi6GtkRjuZ4J2DinvRkcx9kPLPmEZfWuwUjKqNsF5xRd2DM2gNY8y4y_9Orz-esG66rOA7aU1g8RFoY5BY4gmmKXC90SbuEG9HJ4WN_HNm3LdtRDZ4wA7_wM5Fa60mzsNR_Vdw1-4u6QLKuEuhqbJhxKi--P43sLIlVdfptjQWMNp9KqR6JSC1AGtWHAlDmUW-iazQ-euZqm6Bt0ZxwRidlL28g9kivJSawPQ8-ZTKCHU4v6Op0j6fhLwUb7ALc750zgxR5_7kAbjdJiqwXpjzfm2Qj1TDkzEoXT16kiTvC8URtlZNQiOz-GWO3mK8ZIHgja0GP4hz4xGtVX4SRhxFbMm9TiD56MjaXRBSDdcLcAob1IvboxbqmT83CiSclWDc7i9Db1a5IXV5ljz5yJBHhu9FzqfkmAWyr9LFmMeYDbeWQCtE_1zc8EDz5WpXoLnRk5BPhElyKWSFAC_7WRdkMRFl6di77yezoUaUqFi2cFxuMVC432GmmstGeFn4H6oTVK8CxhUyfZd4ZsXldNQD7Kjgiansofipqp6jett2iLCBoGWNNq2SIVRml_1CmqRg5j4T41BeT0AEG08rVXfLdP5w02GtZcVyfWWhlDgdldlFhR6ODJCnQreue4dgWmtH5zVwSgNs2qHbVAL_D4uOQcNcDrjFS0hHX8vIRGVw9nNJlZX-i7mRLYJdeVV0EfzeHjrdU8nNDaO6Mb6u5APRqvELDNzAmPzmeqL7Fpg37uHxJOmwAkVY8bcJOvlQBy1uDc2l61TrQWNm1Ytxgj-pUJzlxumGrF_Bt2-peG8Drg6r7jKfHmTCAfi0saCFq5seuoPeSS3hrIRY1WMAReYL4xHxlqxlrr3Sr1PHt0MjHjd4w6WhvZODDCfSz4myN8cxXB5qNipxkT1XSt88Adiej9-z2UK6q6XG45mkQwUQCKG2iZjAJOgTsXX1C9aiiY7",
-      "Episode 2": "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9LF-TmNQSer2o6s3lvyc2LRo9yRZCvy95oFPGNLy8Yi_GEmSiTRyMMAVxBsUlKIPHKZPTYuRfZkHf0TlIJo8GlP2qhaL6yJZTa0Ddff5fSTFLW7SWGuZMebxZe5zT0_-aQh8v4gnkEPxrLLakXI3FJNzlN-ok6APvxq07CjufLdXrjFzkoDmZu1W7OpukMrqjYxAv_peaovcy1bGI1hKFS_14-PKYGK2h0wCrqeIgA1H7ACRESaO94egvu2DKH1NGs3zta39JQPMwe4DirBKb1_75O-Vr9rejhCf9inVawwtZFAVJtQTkPv55vqykIkv6bCcBmi1d5vXDnOb-0tez6jRYx7yVBHezg6zl4SE_owi5jxmHE-1jhTmmuXypfpjKe0nunOFn8hHOm3Ek6wgSAfb31JQA6ZlVCBFoqHVkRAY2lYbYJmlQsPg4N5X75Ezynunz4GZbP_Ze_1EUt7ZoiFMw922RuY2xefNfSgaY2hfTMQjLN1fvZTmKqO2m1ZhQLbGsTmF3hH-geE0yx_3qUMNjjlg1ZSH7MlcHe53LTyEeGkXWu74yXuBB4vXhYMY-QUjKAx0XLBtFNoNNZVtdvuaCqqUj7RUzcQGAcsaAZjwyf2QtTuymbJ9BGUwr-TeJhD96WAMgwQRhN0xsTkH4iYUDjKQu_I39AKot9dJjDZw8p8mnIohHIjl6cnznGJeoPsZKnjQS-7qxbpu89GiR83O9TLPnB0TptjkC43KUUvSbtA-NLMyIzPHIXTyEqke2zJOZKFQzCVR3Z3bHdmx186Ib7CEWxXeBJVCNsV35gcMSMC1LQJMYSR1Ed11DQf2DIUtbib7aXKyhDEMm8JQB5OujyZXs7Iu9abSp9a5Pfz0ThUDRA_1dOzeLD8zVmZNp4iTEKYOyFHHe1loq7ACxiL71X2R-niWbJ-giEoThC39pFXM5zFiQoN55RevQYv5FXCf6sP",
-      "Episode 3": "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9KbWrWoezJOA_kw9b_eUB2Fk1C3wajFjnuhc8N8jqKr2oxuZLGXJb_XtGMCB9QsSvv7vHR0Omk8w4wFaAAVZ6KpblAQS9E7PQjtdJBiZdKYYu37iYJ6-T33lZv8vnap9mVB0kyV2QDCJ06YCAYVE4WuP0AltwJSv21r2G4rvnGQnWmrQpmBC1SVMuuPmHDUsWod3au7Q9VgbbDkppAQUU-MxeaPhTvpJbnB1OGztPBNJvih-hvYm7JYrqrvtxhHCLsQY-VVlKzzuzZdwmfT_9tGEhKfe_TDkH6g-f6GnVDx_GsoPM_DACtGeRR8V7Ay0jQCdWVWrIQX1ZHBT1nDa5bQrvr6qY5JvhmDPGCbsC9z3Y5CoPVDfyOwT4RbMFpbmImOfAsQIa6ccVdR0cLDxt1IShLuDUzKK3HLHqVzZDjdZwWbTbptGrU7Q7lG0UjpSTNtC-G1VQY7LEX8rIY_hP3VbYm1XJZG59bBbdLSJia6aboTRxW2M5hZDaDeTTvFOhj_freudVotBNMMGzWC9XSyW0Y59c2J2FMg-nMlbvwhf4NKWohoFg7aiN9Bx_ruNjPihRQK_w0yA0J7uOnl2y_RXQb419jMuMuDPXuUrP-lz3-uHMoXn7LikXxmBuPcU6XLxw8qhuHX2Gfh0Zgfht6iXj9VOP111hbClC_l0ObviqrAZj9oPba4L8K3F2FDSJIPw_bS0tpabn-C89kMkqJo9VdXozcqX32lbCmUAL5zrHb8NwYUu11V1X2voHrNz4IgklL6MExoAC-X3pRCI811ktM8qsNBdkjgb1725JPq88uHjWlAnqyDt5pQQC1Rm_9t-9gUUtl0Apg1uj8hbn8ADVEJDBkGLtgDnCPd0CzLud4WjB3SLZn6PTzf6UfU1pK8bJBOFptxbaPXOZmenqOu5an4Ch6A0rIrUnTaW_rjtlKqLe3VucotklqTtrZJvhD8Yg1N",
-      "Episode 4": "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9LbhcSwguu65805pOhwDOPxv6aXbDtxfgWHQ5sosXCTwdv5X8Z6A3MhpgmeySjm-L2iFdJpdUaG4dZgJQjrb_fEs6u_WTJMQVFopo7jpF6hzQnoKV1X1056Tco6vVbQjGJ3P2X-cwKdKR0lji0H609hjZKMOXmZuSJ49p7d_hx-0wLMpLUJTR2hZhLPW-zHz8dZzqQXT0loXO4biUqw43yfCx2qFW4vwFPV0pasi7e4J_grClDhJ3j28NT6X8sb0BrdWW4F120ju6qyhKvqQlCr8hpkcl8WUNEJGvHeGCH22MB7kHG9jxx4bNrIP6F1yj6RRk4oaqhFsn8BHNyqVn7DvB1yzXVkWEWBSuuXh6cTwhO6IJYbE2XoDJyXnY___cPxnGN0qJrsqrpWaQIuuzt1LutYqBxtun9ARc5TeXqlod3IbBcYz6-cvdUghdj2_0ju55Du7hZlumUhnrJXGDKChUdmQRiekQDRtaHyytcVSB2rl0L76ZqTCzNEawqAfWfQSUdFC9rcsOwtkMFU5dywZ-rRBJXhijUe02NQrzSDxHNNYEDSteQ6OO-rxu-19EuCntTacAU4SiS0a4QoW7k0b5mgHIfOTTSmUNWTT09KFS1fhfWJ9MxHIxR4f0oRsgicMPMQfUfqm_GgvFLA3IUGJbL6rZMxbBcdzLYfpviCjB03KOTSawbYPdbrPjqnbJbG4Djk36JAcMFTKjlM_oU5no5WxvgmJEw4rYogahcfyTyIKpLxend41ypXV6rY4gA5A3QsfvhlR8D2Lr4dlkRsxunhfbFVytN58CxL0BO_6BX9HBKMcZ6ARiZWklQvGbNxJXYDM7gDvNsw-pE7eG4PJR657im5Yt8BbKwOxOiXTH0Pf6nhhk8LE_rOFLvYuXkzFwS507UExGe8Pv97Ex5GkAm82m81YdWkXGHcuz6tt2Oi9zphAdyS5CXphKQccNscIyeG",
-      "Episode 5": "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9JHetqNVygmuelCU2eyDbhhC-MjKTExWMdXs-8p_XrcWFCcX4cMODYsNBNDpmxLSzAa2IRyDWalz6cU64tk2Pl5MxT_KuoYNHT1V7Fra7mSvxAo7P9RBKuS48PeQhr04mcxeW8YbYhJBP9gudc9HxV8kP-IuKOHsa9Ta9yXFmNRCL07kKGqFI6z5Y35A4SCvBGvIf3H2IwSmZDeSzwC_24L7UYRiWfqZgRgtdfNYkExlSZglbd_ub6xJpDIzVYCfz3G5Z9sBQB1ABdgmoUctR9NSDr9OOLPd4FL2iqWsKJrCXUuRgz8vyi2k4f2GDnO2UxWtdVz8yI-xfUpw4lEVb_BdSDp13Q9yW6-JuabnmI8GFWu5FTmXCNkKqC-DGp6uq3_sOzfZM6BkgYeAPpr4F_NTyD1ylDDH-vt0zWpqiDOEixE9FQrItLGBEY0R-NhVZ8RTzoGTxjGzpSl5NDTAKGelNFC6KdBUePj0m5FASXhylBEsEyhRM2HzOP3dReR1k9-j3sy2LjI1PIVKXbHJSyw2Qk2A8nVudXxQfcpq7cQVjxmBOKMpZE5kKcQ5l4NMclFIfJ95Wb7BiiACDypZEdxxFCoQznGfFq-wnHn9G2Lu3QFoj_GSx34BDzNxr6Ilrr2CDEszIUCrYJVARJ6Uf_XZzZa5OOfDd9LD3tDUWAu0rF6bSdiWrHkMG7guzTXZhDjrvr20mxb5YwMj-sallXsYUBqHI4GdnAJ5fkGdGEGu_nsq29Wn2TCMbKsFOH0zrDx1CQD184ow7cVqUH_-aEvesyk-OO2NnHzTw_NnqPM9NpWYSs2v0loVb1XMGHzo4mkiZyxSzI5i9LlQQ50KlUtEO-j9EeOsfdOe9vx7FOsNZL-YWaLX6izt4zh9xjvzZv0l-aOOyYsl6666d2m6NNTH6DonoFHPBgaZztISg47KONhTRuqxsnE8g7U6lMHHvbML0A8"
+    "download_links" : {
+      "Episode 1" : "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9J5VMXIi6GtkRjuZ4J2DinvRkcx9kPLPmEZfWuwUjKqNsF5xRd2DM2gNY8y4y_9Orz-esG66rOA7aU1g8RFoY5BY4gmmKXC90SbuEG9HJ4WN_HNm3LdtRDZ4wA7_wM5Fa60mzsNR_Vdw1-4u6QLKuEuhqbJhxKi--P43sLIlVdfptjQWMNp9KqR6JSC1AGtWHAlDmUW-iazQ-euZqm6Bt0ZxwRidlL28g9kivJSawPQ8-ZTKCHU4v6Op0j6fhLwUb7ALc750zgxR5_7kAbjdJiqwXpjzfm2Qj1TDkzEoXT16kiTvC8URtlZNQiOz-GWO3mK8ZIHgja0GP4hz4xGtVX4SRhxFbMm9TiD56MjaXRBSDdcLcAob1IvboxbqmT83CiSclWDc7i9Db1a5IXV5ljz5yJBHhu9FzqfkmAWyr9LFmMeYDbeWQCtE_1zc8EDz5WpXoLnRk5BPhElyKWSFAC_7WRdkMRFl6di77yezoUaUqFi2cFxuMVC432GmmstGeFn4H6oTVK8CxhUyfZd4ZsXldNQD7Kjgiansofipqp6jett2iLCBoGWNNq2SIVRml_1CmqRg5j4T41BeT0AEG08rVXfLdP5w02GtZcVyfWWhlDgdldlFhR6ODJCnQreue4dgWmtH5zVwSgNs2qHbVAL_D4uOQcNcDrjFS0hHX8vIRGVw9nNJlZX-i7mRLYJdeVV0EfzeHjrdU8nNDaO6Mb6u5APRqvELDNzAmPzmeqL7Fpg37uHxJOmwAkVY8bcJOvlQBy1uDc2l61TrQWNm1Ytxgj-pUJzlxumGrF_Bt2-peG8Drg6r7jKfHmTCAfi0saCFq5seuoPeSS3hrIRY1WMAReYL4xHxlqxlrr3Sr1PHt0MjHjd4w6WhvZODDCfSz4myN8cxXB5qNipxkT1XSt88Adiej9-z2UK6q6XG45mkQwUQCKG2iZjAJOgTsXX1C9aiiY7",
+      "Episode 2" : "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9LF-TmNQSer2o6s3lvyc2LRo9yRZCvy95oFPGNLy8Yi_GEmSiTRyMMAVxBsUlKIPHKZPTYuRfZkHf0TlIJo8GlP2qhaL6yJZTa0Ddff5fSTFLW7SWGuZMebxZe5zT0_-aQh8v4gnkEPxrLLakXI3FJNzlN-ok6APvxq07CjufLdXrjFzkoDmZu1W7OpukMrqjYxAv_peaovcy1bGI1hKFS_14-PKYGK2h0wCrqeIgA1H7ACRESaO94egvu2DKH1NGs3zta39JQPMwe4DirBKb1_75O-Vr9rejhCf9inVawwtZFAVJtQTkPv55vqykIkv6bCcBmi1d5vXDnOb-0tez6jRYx7yVBHezg6zl4SE_owi5jxmHE-1jhTmmuXypfpjKe0nunOFn8hHOm3Ek6wgSAfb31JQA6ZlVCBFoqHVkRAY2lYbYJmlQsPg4N5X75Ezynunz4GZbP_Ze_1EUt7ZoiFMw922RuY2xefNfSgaY2hfTMQjLN1fvZTmKqO2m1ZhQLbGsTmF3hH-geE0yx_3qUMNjjlg1ZSH7MlcHe53LTyEeGkXWu74yXuBB4vXhYMY-QUjKAx0XLBtFNoNNZVtdvuaCqqUj7RUzcQGAcsaAZjwyf2QtTuymbJ9BGUwr-TeJhD96WAMgwQRhN0xsTkH4iYUDjKQu_I39AKot9dJjDZw8p8mnIohHIjl6cnznGJeoPsZKnjQS-7qxbpu89GiR83O9TLPnB0TptjkC43KUUvSbtA-NLMyIzPHIXTyEqke2zJOZKFQzCVR3Z3bHdmx186Ib7CEWxXeBJVCNsV35gcMSMC1LQJMYSR1Ed11DQf2DIUtbib7aXKyhDEMm8JQB5OujyZXs7Iu9abSp9a5Pfz0ThUDRA_1dOzeLD8zVmZNp4iTEKYOyFHHe1loq7ACxiL71X2R-niWbJ-giEoThC39pFXM5zFiQoN55RevQYv5FXCf6sP",
+      "Episode 3" : "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9KbWrWoezJOA_kw9b_eUB2Fk1C3wajFjnuhc8N8jqKr2oxuZLGXJb_XtGMCB9QsSvv7vHR0Omk8w4wFaAAVZ6KpblAQS9E7PQjtdJBiZdKYYu37iYJ6-T33lZv8vnap9mVB0kyV2QDCJ06YCAYVE4WuP0AltwJSv21r2G4rvnGQnWmrQpmBC1SVMuuPmHDUsWod3au7Q9VgbbDkppAQUU-MxeaPhTvpJbnB1OGztPBNJvih-hvYm7JYrqrvtxhHCLsQY-VVlKzzuzZdwmfT_9tGEhKfe_TDkH6g-f6GnVDx_GsoPM_DACtGeRR8V7Ay0jQCdWVWrIQX1ZHBT1nDa5bQrvr6qY5JvhmDPGCbsC9z3Y5CoPVDfyOwT4RbMFpbmImOfAsQIa6ccVdR0cLDxt1IShLuDUzKK3HLHqVzZDjdZwWbTbptGrU7Q7lG0UjpSTNtC-G1VQY7LEX8rIY_hP3VbYm1XJZG59bBbdLSJia6aboTRxW2M5hZDaDeTTvFOhj_freudVotBNMMGzWC9XSyW0Y59c2J2FMg-nMlbvwhf4NKWohoFg7aiN9Bx_ruNjPihRQK_w0yA0J7uOnl2y_RXQb419jMuMuDPXuUrP-lz3-uHMoXn7LikXxmBuPcU6XLxw8qhuHX2Gfh0Zgfht6iXj9VOP111hbClC_l0ObviqrAZj9oPba4L8K3F2FDSJIPw_bS0tpabn-C89kMkqJo9VdXozcqX32lbCmUAL5zrHb8NwYUu11V1X2voHrNz4IgklL6MExoAC-X3pRCI811ktM8qsNBdkjgb1725JPq88uHjWlAnqyDt5pQQC1Rm_9t-9gUUtl0Apg1uj8hbn8ADVEJDBkGLtgDnCPd0CzLud4WjB3SLZn6PTzf6UfU1pK8bJBOFptxbaPXOZmenqOu5an4Ch6A0rIrUnTaW_rjtlKqLe3VucotklqTtrZJvhD8Yg1N",
+      "Episode 4" : "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9LbhcSwguu65805pOhwDOPxv6aXbDtxfgWHQ5sosXCTwdv5X8Z6A3MhpgmeySjm-L2iFdJpdUaG4dZgJQjrb_fEs6u_WTJMQVFopo7jpF6hzQnoKV1X1056Tco6vVbQjGJ3P2X-cwKdKR0lji0H609hjZKMOXmZuSJ49p7d_hx-0wLMpLUJTR2hZhLPW-zHz8dZzqQXT0loXO4biUqw43yfCx2qFW4vwFPV0pasi7e4J_grClDhJ3j28NT6X8sb0BrdWW4F120ju6qyhKvqQlCr8hpkcl8WUNEJGvHeGCH22MB7kHG9jxx4bNrIP6F1yj6RRk4oaqhFsn8BHNyqVn7DvB1yzXVkWEWBSuuXh6cTwhO6IJYbE2XoDJyXnY___cPxnGN0qJrsqrpWaQIuuzt1LutYqBxtun9ARc5TeXqlod3IbBcYz6-cvdUghdj2_0ju55Du7hZlumUhnrJXGDKChUdmQRiekQDRtaHyytcVSB2rl0L76ZqTCzNEawqAfWfQSUdFC9rcsOwtkMFU5dywZ-rRBJXhijUe02NQrzSDxHNNYEDSteQ6OO-rxu-19EuCntTacAU4SiS0a4QoW7k0b5mgHIfOTTSmUNWTT09KFS1fhfWJ9MxHIxR4f0oRsgicMPMQfUfqm_GgvFLA3IUGJbL6rZMxbBcdzLYfpviCjB03KOTSawbYPdbrPjqnbJbG4Djk36JAcMFTKjlM_oU5no5WxvgmJEw4rYogahcfyTyIKpLxend41ypXV6rY4gA5A3QsfvhlR8D2Lr4dlkRsxunhfbFVytN58CxL0BO_6BX9HBKMcZ6ARiZWklQvGbNxJXYDM7gDvNsw-pE7eG4PJR657im5Yt8BbKwOxOiXTH0Pf6nhhk8LE_rOFLvYuXkzFwS507UExGe8Pv97Ex5GkAm82m81YdWkXGHcuz6tt2Oi9zphAdyS5CXphKQccNscIyeG",
+      "Episode 5" : "https://nzarticles.xyz/dl/?link=https://video-downloads.googleusercontent.com/AGQNM9JHetqNVygmuelCU2eyDbhhC-MjKTExWMdXs-8p_XrcWFCcX4cMODYsNBNDpmxLSzAa2IRyDWalz6cU64tk2Pl5MxT_KuoYNHT1V7Fra7mSvxAo7P9RBKuS48PeQhr04mcxeW8YbYhJBP9gudc9HxV8kP-IuKOHsa9Ta9yXFmNRCL07kKGqFI6z5Y35A4SCvBGvIf3H2IwSmZDeSzwC_24L7UYRiWfqZgRgtdfNYkExlSZglbd_ub6xJpDIzVYCfz3G5Z9sBQB1ABdgmoUctR9NSDr9OOLPd4FL2iqWsKJrCXUuRgz8vyi2k4f2GDnO2UxWtdVz8yI-xfUpw4lEVb_BdSDp13Q9yW6-JuabnmI8GFWu5FTmXCNkKqC-DGp6uq3_sOzfZM6BkgYeAPpr4F_NTyD1ylDDH-vt0zWpqiDOEixE9FQrItLGBEY0R-NhVZ8RTzoGTxjGzpSl5NDTAKGelNFC6KdBUePj0m5FASXhylBEsEyhRM2HzOP3dReR1k9-j3sy2LjI1PIVKXbHJSyw2Qk2A8nVudXxQfcpq7cQVjxmBOKMpZE5kKcQ5l4NMclFIfJ95Wb7BiiACDypZEdxxFCoQznGfFq-wnHn9G2Lu3QFoj_GSx34BDzNxr6Ilrr2CDEszIUCrYJVARJ6Uf_XZzZa5OOfDd9LD3tDUWAu0rF6bSdiWrHkMG7guzTXZhDjrvr20mxb5YwMj-sallXsYUBqHI4GdnAJ5fkGdGEGu_nsq29Wn2TCMbKsFOH0zrDx1CQD184ow7cVqUH_-aEvesyk-OO2NnHzTw_NnqPM9NpWYSs2v0loVb1XMGHzo4mkiZyxSzI5i9LlQQ50KlUtEO-j9EeOsfdOe9vx7FOsNZL-YWaLX6izt4zh9xjvzZv0l-aOOyYsl6666d2m6NNTH6DonoFHPBgaZztISg47KONhTRuqxsnE8g7U6lMHHvbML0A8"
     },
-    "language": "Hindi",
-    "type": "Web-Series",
-    "other": {
-      "popularity": 65
+    "language" : "Hindi",
+    "type" : "Web-Series",
+    "other" : {
+      "popularity" : 65
     }
   }
 ]
