@@ -25,160 +25,20 @@
         <div id="content_box">
           <!-- FIXME: Posts-->
           <div class="random_posts">
-            <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="<%=data[0].post_ss %>"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      <%= data[0].name %>  (<%= data[0].year %>)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        <%= data[0].imdb %> <span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3><%= data[0].language %> </h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-              <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  width="284"
-                  height="420"
-                  src="https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_FMjpg_UX1000_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Baahubali: The Beginning (2015)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        8.7<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- second -->
-            <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Deadpool (2016)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.5<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-              <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Avengers:End Game (2019)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.9<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <% let i1=10+(num*10); let i=num*10;%> <%
+            if(i1>data.length){i1=data.length} %> <%for(i; i < i1 ;){ let
+            temp=i;%>
 
-            <!-- third -->
             <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BMDA5YjQwM2QtNmZkZi00ZTk3LTg1M2ItMTg3NzU1ZmQyNzc3XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
+              <a
+                class="images_post"
+                href="http://localhost:3000/inner/<%= data[i].name %> "
+              >
+                <img src="<%=data[ i].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Deadpool (2016)
+                      <%= data[ i].name %> (<%= data[i].year %>)
                     </h2>
                     <hr />
                     <div
@@ -190,29 +50,29 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        7.5<span style="color: #555555">/10</span>
+                        <%= data[i].imdb %>
+                        <span style="color: #555555">/10</span>
                       </h3>
                     </div>
                     <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
+                    <h3><%= data[ i].language %></h3>
                     <hr />
                     <h3>480P-720P-1080P</h3>
                     <hr />
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a>
               <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
+              <a
+                class="images_post"
+                href="http://localhost:3000/inner/<%= data[temp+1].name %> "
+              >
+                <img src="<%=data[temp+1].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Avengers:End Game (2019)
+                      <%= data[temp+1].name %> (<%= data[temp+1].year %>)
                     </h2>
                     <hr />
                     <div
@@ -224,159 +84,21 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        7.9<span style="color: #555555">/10</span>
+                        <%= data[temp+1].imdb %>
+                        <span style="color: #555555">/10</span>
                       </h3>
                     </div>
                     <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
+                    <h3><%= data[temp+1].language %></h3>
                     <hr />
                     <h3>480P-720P-1080P</h3>
                     <hr />
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a>
             </section>
-            <!-- fourth -->
-            <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BNGFlOTVkMmMtOWE1OC00Y2Q1LThmNTctM2IxMWVkY2EyYjBlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Deadpool (2016)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.5<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-              <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BN2U2NzcyYWQtYWRkNi00NWE2LWFlN2UtMjY0MzJkMWQzZDI2XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_FMjpg_UX1000_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Avengers:End Game (2019)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.9<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- fifth -->
-            <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BYWFhZmNlZjAtMDViNi00ZmNkLTk4YzktY2RlNzM2NTIwYzE0XkEyXkFqcGdeQXVyMTIzMzg0MTM2._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Deadpool (2016)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.5<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-              <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BMjk1NzcwMDUtNDU4ZC00MzlhLTkzZjAtM2MxMTRjZGE0ODdhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Avengers:End Game (2019)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.9<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <% i=i+2;} %>
           </div>
 
           <!-- FIXME: Screen Shot-->
@@ -390,16 +112,15 @@
         <div class="pagination">
           <ul class="pagination-2">
             <li class="page-number prev"><a href="#">&laquo;</a></li>
-            <li class="page-number"><a href="#">1</a></li>
-            <li class="page-number active"><a href="#">2</a></li>
-            <li class="page-number"><a href="#">3</a></li>
-            <li class="page-number"><a href="#">4</a></li>
-            <li class="page-number"><a href="#">5</a></li>
-            <li class="page-number"><a href="#">6</a></li>
-            <li class="page-number"><a href="#">7</a></li>
-            <li class="page-number"><a href="#">8</a></li>
-            <li class="page-number"><a href="#">9</a></li>
-            <li class="page-number"><a href="#">10</a></li>
+            <% for(let i = 0;i < data.length/10 ; i++){ %>
+            <li class="page-number ">
+              <% if(num==i){%>
+                <a href="http://localhost:3000/page/<%= i %> "><%= i %> </a>
+                <%}else{%>
+              <a href="http://localhost:3000/page/<%= i %> "><%= i %> </a>
+              <%}%>
+            </li>
+            <% } %>
             <li class="page-number prev"><a href="#">&raquo;</a></li>
           </ul>
         </div>

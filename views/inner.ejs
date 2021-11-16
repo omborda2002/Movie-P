@@ -25,9 +25,9 @@
           <!-- TODO: Movie Heading -->
           <div class="head">
             <div class="movie_name">
-              <h1>Bhaag Milkha Bhaag</h1>
+              <h1><%= datam.name %> </h1>
               <p>
-                2013<i class="bi bi-dot"></i>U<i class="bi bi-dot"></i>3h 6min
+                <%= datam.year %> <i class="bi bi-dot"></i>U<i class="bi bi-dot"></i><%=datam.other.length %> 
               </p>
             </div>
             <div class="starRating">
@@ -35,7 +35,7 @@
               <div class="starLine">
                 <i class="fas fa-star"></i>
                 <div class="rate">
-                  <p><b style="color: white">8.2</b>/10</p>
+                  <p><b style="color: white"><%= datam.imdb %> </b>/10</p>
                   <p>65K</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@
           <!-- TODO: title posts-->
           <div class="post_title">
             <img
-              src="https://m.media-amazon.com/images/M/MV5BMTY1Nzg4MjcwN15BMl5BanBnXkFtZTcwOTc1NTk1OQ@@._V1_FMjpg_UX1000_.jpg"
+              src="<%= datam.post_ss %> "
               alt=""
             />
             <div class="white_head">
@@ -76,7 +76,7 @@
                       d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"
                     ></path>
                   </svg>
-                  <p>Bhaag Milkha Bhaag</p>
+                  <p><%= datam.name %> </p>
                 </div>
                 <div class="info_section">
                   <span>Language</span>
@@ -97,7 +97,7 @@
                       d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"
                     ></path>
                   </svg>
-                  <p>Dual-audio {Hindi-English}</p>
+                  <p><%= datam.language %> </p>
                 </div>
                 <div class="info_section">
                   <span>Subtitles</span>
@@ -188,21 +188,14 @@
                 </svg>
               </div>
               <div class="ss_images">
+                <% for(let ss of datam.ss_url){ %> 
                 <img
-                  src="https://wwv.yify-magnet.com/uploads/movies/bhaag-milkha-bhaag-2013-tt2356180/large-screenshot-3.jpg"
+                  src=" <%=ss%>"
                   alt=""
                   srcset=""
                 />
-                <img
-                  src="https://wallpaperaccess.com/full/2511660.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <img
-                  src="https://wallpaperaccess.com/full/2511585.jpg"
-                  alt=""
-                  srcset=""
-                />
+                <%}%>
+                
               </div>
             </div>
           </div>

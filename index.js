@@ -3,8 +3,7 @@ const app = express();
 const path = require("path");
 const bodyParser = require('body-parser');
 const data = require("./data.json");
-const fs = require('fs');
-
+let datam;
 // TODO: JSON DATA 
 // fs.readFile("./data.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -26,14 +25,35 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "/views"));
 
+
+
 app.get("/", (req, res) => {
-  res.render("home",{data});
+  let num=0;
+  res.render("home",{data,num});
 });
 
-app.get("/inner", (req, res) => {
-  res.render("inner",{data});
+app.get("/inner/:name", (req, res) => {
+  const {name}=req.params;
+
+  for(let i=0;i<data.length;i++){
+
+    if(data[i].name==name){
+      datam=data[i];
+      break;
+    }
+
+  }
+
+  res.render("inner",{datam});
+  // res.render("inner",{datam:data[name.valueOf()]});
 });
 
+app.get("/page/:num",(req,res)=>{
+  const {num}=req.params;
+  console.log(num);
+  res.render("home",{num,data});
+
+});
 app.get("/search", (req, res) => {
   console.log(req.query);
   res.send("Ok Search !");

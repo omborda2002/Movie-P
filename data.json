@@ -5,20 +5,20 @@
     "imdb": 6.3,
     "genre": "action",
     "post_ss": "https://m.media-amazon.com/images/M/MV5BNDI3M2E5ZGQtZjVlNS00NzFhLTg0NTAtZDZmOTBjODg3ZDQ1XkEyXkFqcGdeQXVyNzkxOTEyMjI@._V1_FMjpg_UX1000_.jpg",
-    "ss_url": {
-      "url_1": "https://i.imgur.com/svlcGfQ.png",
-      "url_2": "https://i.imgur.com/cO5xRzk.png",
-      "url_3": "https://i.imgur.com/EGLbmSZ.png"
-    },
-    "download_links": {
-      "480": "https://veryfastdownload.pw/v2/download2.php?link=Uy95Tmg0YWFrL0FBbXNlNWg2bGs1Zz09",
-      "720": "https://veryfastdownload.pw/v2/download2.php?link=NUN6NEEzT1pWNE9YWjNMOFh6QUIvZz09",
-      "1080": "https://veryfastdownload.pw/v2/download2.php?link=UitGWWp0RWcxVlhMUy9vU2xuOG9rQT09"
-    },
+    "ss_url": [
+       "https://i.imgur.com/svlcGfQ.png",
+       "https://i.imgur.com/cO5xRzk.png",
+       "https://i.imgur.com/EGLbmSZ.png"
+    ],
+    "download_links": [
+      "https://veryfastdownload.pw/v2/download2.php?link=Uy95Tmg0YWFrL0FBbXNlNWg2bGs1Zz09",
+      "https://veryfastdownload.pw/v2/download2.php?link=NUN6NEEzT1pWNE9YWjNMOFh6QUIvZz09",
+      "https://veryfastdownload.pw/v2/download2.php?link=UitGWWp0RWcxVlhMUy9vU2xuOG9rQT09"
+    ],
     "language": "Hindi",
     "type": "bollywood",
     "other": {
-      "length": "3h 6min",
+      "length": "3h 16min",
       "popularity": 65
     }
   },
@@ -380,6 +380,94 @@
     "other": {
       "length": "3h 6min",
       "popularity": 55
+    }
+  },
+  {
+    "name": "Please Kill Me",
+    "year": 2021,
+    "imdb": 9.1,
+
+    "genre": "crime",
+    "post_ss": "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
+    "ss_url": {
+      "url_1": "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
+    },
+    "download_links": {
+      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
+      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
+      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+    },
+    "language": "Hindi",
+    "type": "bollywood",
+    "other": {
+      "length": "3h 6min",
+      "popularity": 65
+    }
+  },
+  {
+    "name": "Please Kill Me",
+    "year": 2021,
+    "imdb": 9.1,
+
+    "genre": "crime",
+    "post_ss": "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
+    "ss_url": {
+      "url_1": "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
+    },
+    "download_links": {
+      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
+      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
+      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+    },
+    "language": "Hindi",
+    "type": "bollywood",
+    "other": {
+      "length": "3h 6min",
+      "popularity": 65
+    }
+  },
+  {
+    "name": "Please Kill Me",
+    "year": 2021,
+    "imdb": 9.1,
+
+    "genre": "crime",
+    "post_ss": "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
+    "ss_url": {
+      "url_1": "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
+    },
+    "download_links": {
+      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
+      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
+      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+    },
+    "language": "Hindi",
+    "type": "bollywood",
+    "other": {
+      "length": "3h 6min",
+      "popularity": 65
+    }
+  },
+  {
+    "name": "Please Kill Me",
+    "year": 2021,
+    "imdb": 9.1,
+
+    "genre": "crime",
+    "post_ss": "https://m.media-amazon.com/images/M/MV5BOWI4ZDBlYzQtNmU0OC00NTViLWJhYzItN2UwYzIxYTZlNDcxXkEyXkFqcGdeQXVyMTM1Mjk5NDUy._V1_.jpg",
+    "ss_url": {
+      "url_1": "https://myimg.bid/images/2021/09/25/Please.Kill.Me.2021.720p.WEB-DL.Punjabi.x264-HDHub4u.tax.mkv.jpg"
+    },
+    "download_links": {
+      "480": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9CNmFIdW54dEM5VFFlZVFyNw==",
+      "720": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC9aeXI1OU1LdGFkdzNHbTZHQQ==",
+      "1080": "https://gpshare.xyz/download.php?id=aHR0cHM6Ly9waG90b3MuYXBwLmdvby5nbC94eVlyU0dxWEd5OHdBa3dXQQ=="
+    },
+    "language": "Hindi",
+    "type": "bollywood",
+    "other": {
+      "length": "3h 6min",
+      "popularity": 65
     }
   },
   {
