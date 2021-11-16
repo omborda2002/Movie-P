@@ -60,7 +60,6 @@ app.get("/search", (req, res) => {
       dataSearch = data[i];
     }
   }
-  console.log(dataSearch);
   res.render("s", {dataSearch});
 });
 
