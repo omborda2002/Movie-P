@@ -112,15 +112,17 @@
         <div class="pagination">
           <ul class="pagination-2">
             <li class="page-number prev"><a href="#">&laquo;</a></li>
-            <% for(let i = 0;i < data.length/10 ; i++){ %>
-            <li class="page-number ">
-              <% if(num==i){%>
-                <a href="http://localhost:3000/page/<%= i %> "><%= i %> </a>
-                <%}else{%>
-              <a href="http://localhost:3000/page/<%= i %> "><%= i %> </a>
-              <%}%>
-            </li>
-            <% } %>
+            <% for(let i = 0;i < data.length/10 ; i++){ %> <% if(num==i){%>
+
+            <a href="http://localhost:3000/page/<%= i %> "
+              ><li class="page-number active"><%= i %></li>
+            </a>
+
+            <%}else{%>
+            <a href="http://localhost:3000/page/<%= i %> "
+              ><li class="page-number"><%= i %></li>
+            </a>
+            <%}%> <% } %>
             <li class="page-number prev"><a href="#">&raquo;</a></li>
           </ul>
         </div>
