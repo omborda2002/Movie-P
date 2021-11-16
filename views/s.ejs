@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Home</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="/home.css" />
+    <!-- TODO: Head-links -->
+    <%- include("partials/links") %>
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container-sm">
+      <!-- NAVBAR here-- -->
+      <%- include("partials/navbar") %>
+
+      <!-- TODO: INNER-PLACE FIXING -->
+      <div id="page" class="home_h1">
+        <div id="content_box">
+          <!-- FIXME: Posts-->
+          <div class="random_posts">
+
+            <section class="other_movies_head">
+              <a
+                class="images_post"
+                href="http://localhost:3000/inner/<%= dataSearch.name %> "
+              >
+                <img src="<%=dataSearch.post_ss %>" alt="" srcset="" />
+                <div class="name_otherPosts p-4">
+                  <div class="post_infor">
+                    <h2 style="text-shadow: #fc0 1px 0 10px">
+                      <%= dataSearch.name %> (<%= dataSearch.year %>)
+                    </h2>
+                    <hr />
+                    <div
+                      class="imdb_rateing justify-center"
+                      style="align-items: center"
+                    >
+                      <i
+                        class="fas fa-star"
+                        style="color: rgb(244, 197, 24); margin-right: 1%"
+                      ></i>
+                      <h3 style="margin: 0px">
+                        <%= dataSearch.imdb %>
+                        <span style="color: #555555">/10</span>
+                      </h3>
+                    </div>
+                    <hr />
+                    <h3><%= dataSearch.language %></h3>
+                    <hr />
+                    <h3>480P-720P-1080P</h3>
+                    <hr />
+                    <h3>300MB,1GB,2.5GB</h3>
+                  </div>
+                </div>
+              </a>
+              
+            </section>
+            
+          </div>
+
+          <!-- FIXME: Screen Shot-->
+        </div>
+      </div>
+
+      <!-- TODO: FOOTER HERE -->
+
+      <!-- page-number -->
+      <div class="pageNumberBar">
+
+
+        <div class="foooter">
+          <p>SITE NAME ©</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript links -->
+    <%- include('partials/js_links') %>
+  </body>
+</html>
