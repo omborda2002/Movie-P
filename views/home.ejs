@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>TEST</title>
+    <title>Home</title>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="/home.css" />
     <!-- TODO: Head-links -->
@@ -28,14 +28,14 @@
             <section class="other_movies_head">
               <div class="images_post">
                 <img
-                  src="https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"
+                  src="<%=data[0].post_ss %>"
                   alt=""
                   srcset=""
                 />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      No Time to Die (2021)
+                      <%= data[0].name %>  (<%= data[0].year %>)
                     </h2>
                     <hr />
                     <div
@@ -47,11 +47,11 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        8.1<span style="color: #555555">/10</span>
+                        <%= data[0].imdb %> <span style="color: #555555">/10</span>
                       </h3>
                     </div>
                     <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
+                    <h3><%= data[0].language %> </h3>
                     <hr />
                     <h3>480P-720P-1080P</h3>
                     <hr />
