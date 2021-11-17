@@ -313,10 +313,15 @@ i.bi.bi-chevron-down {
   width: 100%;
   display: flex;
   margin: 2% 0px;
+  
+  font-family: "Roboto", sans-serif;
   flex-direction: row;
 }
 .downloading .btn {
   margin: auto;
+  width: 25%;
+  font-size: 20px;
+  height: 50px;
 }
 .downloading i {
   margin-left: 3px;
