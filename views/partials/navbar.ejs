@@ -35,7 +35,7 @@
                   type="search"
                   id="form1"
                   name="q"
-                  style="color: white; background-color: #1b1b1b"
+                  style="color: rgb(185, 185, 185); background-color: #1b1b1b"
                   class="form-control"
                 />
                 <label class="form-label" style="color: white" for="form1"
@@ -49,9 +49,20 @@
           </div>
 
           <!-- FIXME: toggle button -->
-          <div class="toggle shadow-md bothPadding">
-            <i class="fas fa-bars toggle_candles"></i>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="http://localhost:3000/">Home</a>
+              <a href="#">Movies</a>
+              <a href="#">Genre</a>
+              <a href="#">Year</a>
+            </div>
           </div>
+          <span style="font-size: 30px; cursor: pointer" class="tog" onclick="openNav()"
+            >&#9776;</span
+          >
           <!-- FIXME: -->
         </div>
       </div>
@@ -78,15 +89,23 @@
                 rounded-md
                 text-sm
                 font-medium
-              " 
+              "
             >
-               MOVIES <i class="bi bi-chevron-down"></i>
+              MOVIES <i class="bi bi-chevron-down"></i>
             </button>
             <div class="dropdown-content rounded-md shadow-lg">
-              <a href="http://localhost:3000/category/LatestReleased">Latest Released</a>
-              <a href="http://localhost:3000/category/HollywoodMovies">Hollywood Movies</a>
-              <a href="http://localhost:3000/category/EnglishMovies">English Movies</a>
-              <a href="http://localhost:3000/category/AdultMovies">Adult Movies</a>
+              <a href="http://localhost:3000/category/LatestReleased"
+                >Latest Released</a
+              >
+              <a href="http://localhost:3000/category/HollywoodMovies"
+                >Hollywood Movies</a
+              >
+              <a href="http://localhost:3000/category/EnglishMovies"
+                >English Movies</a
+              >
+              <a href="http://localhost:3000/category/AdultMovies"
+                >Adult Movies</a
+              >
             </div>
           </div>
 
