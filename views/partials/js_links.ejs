@@ -25,4 +25,15 @@
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+  let count = 0;
+  function btnClick() {
+    if (count== 0) {
+      count++;
+      document.querySelector('.thenn').style.display = "block";
+    }else{
+      count = 0;
+      document.querySelector('.thenn').style.display = "none";
+    }
+  }
+
 </script>

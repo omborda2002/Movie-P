@@ -58,10 +58,10 @@ a .dropbtn {
   text-decoration: none;
   display: block;
 }
-.dropdown button{
-  background-color: rgb(31,110,235);
+.dropdown button {
+  background-color: rgb(31, 110, 235);
 }
-.dropdown{
+.dropdown {
   align-self: center;
 }
 .dropdown-content a:hover {
@@ -102,12 +102,12 @@ i.bi.bi-chevron-down {
   z-index: 4;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
-.tog{
+.tog {
   display: none;
 }
 
@@ -118,19 +118,33 @@ i.bi.bi-chevron-down {
   text-align: center;
   margin-top: 30px;
 }
-
+.overlay-content button {
+  font-size: 25px;
+  background-color: greenyellow;
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 25px;
   color: #818181;
+  transition:700ms;
   display: block;
-  transition: 0.3s;
+}
+.thenn {
+  display: none;
+  
 }
 
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+/* .overlay button:hover {
+  color: #000000;
 }
+.overlay:hover .thenn {
+  display: block;
+  transition:700ms;
+} */
 
 .overlay .closebtn {
   position: absolute;
@@ -147,7 +161,7 @@ i.bi.bi-chevron-down {
   width: 100%;
   padding-top: 0px;
   padding: 1%;
-  background-color: rgb(0,10,29);
+  background-color: rgb(0, 10, 29);
 }
 
 /* FIXME: Random Section */
@@ -170,7 +184,7 @@ i.bi.bi-chevron-down {
   flex-direction: row;
   flex-wrap: row;
 }
-.other_movies_head:last-child{
+.other_movies_head:last-child {
   margin-bottom: 3%;
 }
 
@@ -182,7 +196,7 @@ i.bi.bi-chevron-down {
   height: auto;
   box-shadow: 0 3px 10px rgb(58 134 255 / 0.2);
   margin-top: 4%;
-  background-color: rgb(22,27,34);
+  background-color: rgb(22, 27, 34);
   font-family: "Oswald", sans-serif;
 }
 .images_post:hover {
@@ -256,7 +270,7 @@ i.bi.bi-chevron-down {
 /* TODO: footer */
 .foooter {
   width: 100%;
-  background-color: rgb(0,10,29);
+  background-color: rgb(0, 10, 29);
   height: 50px;
   text-align: center;
 }
@@ -271,16 +285,17 @@ i.bi.bi-chevron-down {
 
 /* --------------------------------------------------------------------------- */
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+  .overlay a {
+    font-size: 20px;
+  }
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 /* TODO:  MEDIA QUERYS*/
 @media screen and (max-width: 360px) {
-
 }
 
 @media screen and (max-width: 480px) {
@@ -297,7 +312,7 @@ i.bi.bi-chevron-down {
     width: auto;
     margin-left: 15px;
   }
-  .tog{
+  .tog {
     display: block;
   }
   .d-flex.flex-row.searchField {
