@@ -25,17 +25,19 @@
         <div id="content_box">
           <!-- FIXME: Posts-->
           <div class="random_posts">
-
+            <% for(let i = 0; i < arr.length;){ %>
+              
+            <% let temp = i+1;  %> 
             <section class="other_movies_head">
               <a
                 class="images_post"
-                href="http://localhost:3000/inner/<%= dataSearch.name %> "
+                href="http://localhost:3000/inner/<%= arr[i].name %> "
               >
-                <img src="<%=dataSearch.post_ss %>" alt="" srcset="" />
+                <img src="<%=arr[i].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      <%= dataSearch.name %> (<%= dataSearch.year %>)
+                      <%= arr[i].name %> (<%= arr[i].year %>)
                     </h2>
                     <hr />
                     <div
@@ -47,12 +49,12 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        <%= dataSearch.imdb %>
+                        <%= arr[i].imdb %>
                         <span style="color: #555555">/10</span>
                       </h3>
                     </div>
                     <hr />
-                    <h3><%= dataSearch.language %></h3>
+                    <h3><%= arr[i].language %></h3>
                     <hr />
                     <h3>480P-720P-1080P</h3>
                     <hr />
@@ -60,9 +62,43 @@
                   </div>
                 </div>
               </a>
-              
+              <% if(temp>(arr.length-1)){}else{ %> 
+              <a
+                class="images_post"
+                href="http://localhost:3000/inner/<%= arr[temp].name %> "
+              >
+                <img src="<%=arr[temp].post_ss %>" alt="" srcset="" />
+                <div class="name_otherPosts p-4">
+                  <div class="post_infor">
+                    <h2 style="text-shadow: #fc0 1px 0 10px">
+                      <%= arr[temp].name %> (<%= arr[temp].year %>)
+                    </h2>
+                    <hr />
+                    <div
+                      class="imdb_rateing justify-center"
+                      style="align-items: center"
+                    >
+                      <i
+                        class="fas fa-star"
+                        style="color: rgb(244, 197, 24); margin-right: 1%"
+                      ></i>
+                      <h3 style="margin: 0px">
+                        <%= arr[temp].imdb %>
+                        <span style="color: #555555">/10</span>
+                      </h3>
+                    </div>
+                    <hr />
+                    <h3><%= arr[temp].language %></h3>
+                    <hr />
+                    <h3>480P-720P-1080P</h3>
+                    <hr />
+                    <h3>300MB,1GB,2.5GB</h3>
+                  </div>
+                </div>
+              </a>
+              <% } %> 
             </section>
-            
+            <% i+=2 ;} %> 
           </div>
 
           <!-- FIXME: Screen Shot-->

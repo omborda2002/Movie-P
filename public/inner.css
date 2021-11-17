@@ -319,10 +319,19 @@ i.bi.bi-chevron-down {
 }
 .downloading .btn {
   margin: auto;
-  width: 25%;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  color: white;
+  background-color: #03045e;
+  width: auto;
+  height: auto;
   font-size: 20px;
-  height: 50px;
 }
+.downloading .btn:hover {
+  border: 5px solid rgb(178, 241, 141) ;
+  transition: 400ms;
+  color: #ff0048;
+}
+
 .downloading i {
   margin-left: 3px;
 }

@@ -487,25 +487,6 @@
       "length": "3h 6min",
       "popularity": 65
     }
-  },
-  {
-    "name": "Kota Factory",
-    "episodes": 5,
-    "season": 2,
-    "year": 2021,
-    "imdb": 9.3,
-    "genre": "comedy",
-    "post_ss": "https://m.media-amazon.com/images/M/MV5BOGVmMGYwZTEtOGFlYS00ODRhLTg3M2MtMzc1OGNhNzU3N2IzXkEyXkFqcGdeQXVyNDY4NjAxNTc@._V1_.jpg",
-    "ss_url": [
-      "https://imagetot.com/images/2021/09/24/2cab7fdd4f9d48761166363662785a65.th.png",
-      "https://imagetot.com/images/2021/09/24/6d018a5cb1bdd4fae17f168a57c5752f.th.png",
-      "https://imagetot.com/images/2021/09/24/7a7c878dc1124e4793fc73b92ae34fba.th.png"
-    ],
-    "download_link": ["#"],
-    "language": "Hindi",
-    "type": "Web-Series",
-    "other": {
-      "popularity": 65
-    }
   }
+
 ]
