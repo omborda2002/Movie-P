@@ -4,8 +4,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const data = require("./data.json");
 let datam;
-let dataSearch;
-let arr = [];
+let arr =[];
 // TODO: JSON DATA
 // fs.readFile("./data.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -91,7 +90,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Action") {
         arr.push(data[i]);
-      }else if (data[i].genre == "action") {
+      } else if (data[i].genre == "action") {
         arr.push(data[i]);
       }
     }
@@ -102,7 +101,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Adventure") {
         arr.push(data[i]);
-      }else if (data[i].genre == "adventure") {
+      } else if (data[i].genre == "adventure") {
         arr.push(data[i]);
       }
     }
@@ -113,7 +112,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Animated") {
         arr.push(data[i]);
-      }else if (data[i].genre == "animated") {
+      } else if (data[i].genre == "animated") {
         arr.push(data[i]);
       }
     }
@@ -124,7 +123,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Comedy") {
         arr.push(data[i]);
-      }else if (data[i].genre == "comedy") {
+      } else if (data[i].genre == "comedy") {
         arr.push(data[i]);
       }
     }
@@ -135,7 +134,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Crime") {
         arr.push(data[i]);
-      }else if (data[i].genre == "crime") {
+      } else if (data[i].genre == "crime") {
         arr.push(data[i]);
       }
     }
@@ -146,7 +145,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Fantasy") {
         arr.push(data[i]);
-      }else if (data[i].genre == "fantasy") {
+      } else if (data[i].genre == "fantasy") {
         arr.push(data[i]);
       }
     }
@@ -157,7 +156,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Horror") {
         arr.push(data[i]);
-      }else if (data[i].genre == "horror") {
+      } else if (data[i].genre == "horror") {
         arr.push(data[i]);
       }
     }
@@ -167,7 +166,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Mystery") {
         arr.push(data[i]);
-      }else if (data[i].genre == "mystery") {
+      } else if (data[i].genre == "mystery") {
         arr.push(data[i]);
       }
     }
@@ -177,11 +176,11 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Sci-Fi") {
         arr.push(data[i]);
-      }else if (data[i].genre == "sci-fi") {
+      } else if (data[i].genre == "sci-fi") {
         arr.push(data[i]);
-      }else if (data[i].genre == "Sci-fi") {
+      } else if (data[i].genre == "Sci-fi") {
         arr.push(data[i]);
-      }else if (data[i].genre == "sci-Fi") {
+      } else if (data[i].genre == "sci-Fi") {
         arr.push(data[i]);
       }
     }
@@ -191,17 +190,19 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Romance") {
         arr.push(data[i]);
-      }else if (data[i].genre == "romance") {
+      } else if (data[i].genre == "romance") {
         arr.push(data[i]);
       }
     }
+
+    console.log(arr)
   }
   if (sub == "drama") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Drama") {
         arr.push(data[i]);
-      }else if (data[i].genre == "drama") {
+      } else if (data[i].genre == "drama") {
         arr.push(data[i]);
       }
     }
@@ -211,7 +212,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].genre == "Thriller") {
         arr.push(data[i]);
-      }else if (data[i].genre == "thriller") {
+      } else if (data[i].genre == "thriller") {
         arr.push(data[i]);
       }
     }
@@ -222,7 +223,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].language == "English") {
         arr.push(data[i]);
-      }else if (data[i].language == "english") {
+      } else if (data[i].language == "english") {
         arr.push(data[i]);
       }
     }
@@ -234,7 +235,7 @@ app.get("/category/:sub", (req, res) => {
     for (let i = 0; i < data.length; i++) {
       if (data[i].language == "hollywood") {
         arr.push(data[i]);
-      }else if (data[i].language == "Hollywood") {
+      } else if (data[i].language == "Hollywood") {
         arr.push(data[i]);
       }
     }
@@ -244,7 +245,7 @@ app.get("/category/:sub", (req, res) => {
     arr = [];
     const d = new Date();
     let year = d.getFullYear();
-    
+
     for (let i = 0; i < data.length; i++) {
       if (data[i].year == year) {
         arr.push(data[i]);
@@ -264,14 +265,43 @@ app.get("/page/:num", (req, res) => {
 app.get("/search", (req, res) => {
   console.log(req.query);
   const { q } = req.query;
-  console.log(q);
-  //search value :
+  console.log(q.toLowerCase());
+
+  let str = q.toLowerCase();
+  // console.log(data[0].name);
+  arr = [];
   for (let i = 0; i < data.length; i++) {
-    if (data[i].name == q) {
-      dataSearch = data[i];
+    let main = data[i].name.toLowerCase();
+    let lm = main.length;
+    let ls = str.length;
+    let c = 0;
+
+    for (let j = 0; j < lm; j++) {
+      let temp = main.substring(j, ls+j);
+      // console.log(`${temp} , ${str}`);
+      
+      if (temp == str) {
+        c++;
+        
+        // console.log(`count ${c}`);
+      }
+    }
+    if (c >= 1) {
+      
+      arr.push(data[i]);
+      // console.log(`log  ${data[i]}`);
     }
   }
-  res.render("s", { dataSearch });
+
+  console.log(arr);
+
+  //search value :
+  // for (let i = 0; i < data.length; i++) {
+  //   if (data[i].name == q) {
+  //     dataSearch = data[i];
+  //   }
+  // }
+  res.render("s", { arr });
 });
 
 app.listen(3000, () => {
