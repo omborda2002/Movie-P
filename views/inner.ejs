@@ -25,9 +25,12 @@
           <!-- TODO: Movie Heading -->
           <div class="head">
             <div class="movie_name">
-              <h1>Bhaag Milkha Bhaag</h1>
+              <h1><%= datam.name %></h1>
               <p>
-                2013<i class="bi bi-dot"></i>U<i class="bi bi-dot"></i>3h 6min
+                <%= datam.year %> <i class="bi bi-dot"></i>U<i
+                  class="bi bi-dot"
+                ></i
+                ><%=datam.other.length %>
               </p>
             </div>
             <div class="starRating">
@@ -35,7 +38,7 @@
               <div class="starLine">
                 <i class="fas fa-star"></i>
                 <div class="rate">
-                  <p><b style="color: white">8.2</b>/10</p>
+                  <p><b style="color: white"><%= datam.imdb %> </b>/10</p>
                   <p>65K</p>
                 </div>
               </div>
@@ -44,10 +47,7 @@
 
           <!-- TODO: title posts-->
           <div class="post_title">
-            <img
-              src="https://m.media-amazon.com/images/M/MV5BMTY1Nzg4MjcwN15BMl5BanBnXkFtZTcwOTc1NTk1OQ@@._V1_FMjpg_UX1000_.jpg"
-              alt=""
-            />
+            <img src="<%= datam.post_ss %> " alt="" />
             <div class="white_head">
               <div class="more_info">
                 <div class="rect"></div>
@@ -76,7 +76,7 @@
                       d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"
                     ></path>
                   </svg>
-                  <p>Bhaag Milkha Bhaag</p>
+                  <p><%= datam.name %></p>
                 </div>
                 <div class="info_section">
                   <span>Language</span>
@@ -97,7 +97,7 @@
                       d="M5.622.631A2.153 2.153 0 0 0 5 2.147c0 .568.224 1.113.622 1.515l8.249 8.34-8.25 8.34a2.16 2.16 0 0 0-.548 2.07c.196.74.768 1.317 1.499 1.515a2.104 2.104 0 0 0 2.048-.555l9.758-9.866a2.153 2.153 0 0 0 0-3.03L8.62.61C7.812-.207 6.45-.207 5.622.63z"
                     ></path>
                   </svg>
-                  <p>Dual-audio {Hindi-English}</p>
+                  <p><%= datam.language %></p>
                 </div>
                 <div class="info_section">
                   <span>Subtitles</span>
@@ -188,21 +188,9 @@
                 </svg>
               </div>
               <div class="ss_images">
-                <img
-                  src="https://wwv.yify-magnet.com/uploads/movies/bhaag-milkha-bhaag-2013-tt2356180/large-screenshot-3.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <img
-                  src="https://wallpaperaccess.com/full/2511660.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <img
-                  src="https://wallpaperaccess.com/full/2511585.jpg"
-                  alt=""
-                  srcset=""
-                />
+                <% for(let ss of datam.ss_url){ %>
+                <img src=" <%=ss%>" alt="" srcset="" />
+                <%}%>
               </div>
             </div>
           </div>
@@ -235,7 +223,7 @@
               <div class="resolution_wise">
                 <p>Bhag Milkha Bhag (Hindi-English) - 480P</p>
                 <div class="downloading text-center">
-                  <button type="button" class="btn btn-warning">
+                  <button type="button" class="btn">
                     Download <i class="bi bi-download"></i>
                   </button>
                 </div>
@@ -243,7 +231,7 @@
               <div class="resolution_wise">
                 <p>Bhag Milkha Bhag (Hindi-English) - 720P</p>
                 <div class="downloading">
-                  <button type="button" class="btn btn-warning">
+                  <button type="button" class="btn">
                     Download <i class="bi bi-download"></i>
                   </button>
                 </div>
@@ -251,7 +239,7 @@
               <div class="resolution_wise">
                 <p>Bhag Milkha Bhag (Hindi-English) - 1080P</p>
                 <div class="downloading">
-                  <button type="button" class="btn btn-warning">
+                  <button type="button" class="btn">
                     Download <i class="bi bi-download"></i>
                   </button>
                 </div>
@@ -260,6 +248,7 @@
           </div>
 
           <!-- FIXME: Screen Shot-->
+
           <div class="random_posts">
             <div class="random_lable">
               <h1>Other Movies</h1>
@@ -281,18 +270,16 @@
                 ></path>
               </svg>
             </div>
-
+            <% let rand1,rand2; %> <% rand1 = Math.floor(Math.random()*10);%> 
+            <% rand2 = Math.floor(Math.random()*10+10);%> 
+            <% for(let i = 0; i < 2;i++) { %>
             <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
+              <a href="http://localhost:3000/inner/<%= data[rand1].name %> " class="images_post">
+                <img src="<%= data[rand1].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      No Time to Die (2021)
+                      <%= data[rand1].name %> (<%= data[rand1].year %>)
                     </h2>
                     <hr />
                     <div
@@ -304,7 +291,9 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        8.1<span style="color: #555555">/10</span>
+                        <%= data[rand1].imdb %><span style="color: #555555"
+                          >/10</span
+                        >
                       </h3>
                     </div>
                     <hr />
@@ -315,20 +304,20 @@
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a>
               <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
+              <a href="http://localhost:3000/inner/<%= data[rand2].name %> " class="images_post">
                 <img
                   width="284"
                   height="420"
-                  src="https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_FMjpg_UX1000_.jpg"
+                  src="<%= data[rand2].post_ss %>"
                   alt=""
                   srcset=""
                 />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Baahubali: The Beginning (2015)
+                      <%= data[rand2].name %> (<%= data[rand2].year %>)
                     </h2>
                     <hr />
                     <div
@@ -340,7 +329,7 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        8.7<span style="color: #555555">/10</span>
+                        <%= data[rand2].imdb %><span style="color: #555555">/10 </span>
                       </h3>
                     </div>
                     <hr />
@@ -351,78 +340,10 @@
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a >
             </section>
-            <!-- second -->
-            <section class="other_movies_head">
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Deadpool (2016)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.5<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-              <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
-                <img
-                  src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
-                  alt=""
-                  srcset=""
-                />
-                <div class="name_otherPosts p-4">
-                  <div class="post_infor">
-                    <h2 style="text-shadow: #fc0 1px 0 10px">
-                      Avengers:End Game (2019)
-                    </h2>
-                    <hr />
-                    <div
-                      class="imdb_rateing justify-center"
-                      style="align-items: center"
-                    >
-                      <i
-                        class="fas fa-star"
-                        style="color: rgb(244, 197, 24); margin-right: 1%"
-                      ></i>
-                      <h3 style="margin: 0px">
-                        7.9<span style="color: #555555">/10</span>
-                      </h3>
-                    </div>
-                    <hr />
-                    <h3>Dual-audio {Hindi-English}</h3>
-                    <hr />
-                    <h3>480P-720P-1080P</h3>
-                    <hr />
-                    <h3>300MB,1GB,2.5GB</h3>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <% rand1++;rand2++; %> 
+            <% } %>
           </div>
 
           <!-- FIXME: Screen Shot-->

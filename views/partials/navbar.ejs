@@ -21,6 +21,7 @@
             alt="Workflow"
           />
         </div>
+<<<<<<< HEAD
 
         <div class="d-flex flex-row searchField">
           <div class="flex space-x-2 bothPadding">
@@ -53,6 +54,179 @@
             <i class="fas fa-bars toggle_candles"></i>
           </div>
           <!-- FIXME: -->
+=======
+
+        <div class="d-flex flex-row searchField">
+          <div class="flex space-x-2 bothPadding">
+            <form
+              action="http://localhost:3000/search"
+              class="input-group"
+              method="get"
+            >
+              <div class="form-outline">
+                <input
+                  id="search-input"
+                  type="search"
+                  id="form1"
+                  name="q"
+                  style="color: rgb(185, 185, 185); background-color: #1b1b1b"
+                  class="form-control"
+                />
+                <label class="form-label" style="color: white" for="form1"
+                  >Search</label
+                >
+              </div>
+              <button id="search-button" type="submit" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <!-- FIXME: -->
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      <a href="http://localhost:3000/" id="alag">HOME</a>
+                    </button>
+                  </h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      MOVIES <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="http://localhost:3000/category/LatestReleased"
+                      >Latest Released</a
+                    >
+                    <a href="http://localhost:3000/category/HollywoodMovies"
+                      >Hollywood Movies</a
+                    >
+                    <a href="http://localhost:3000/category/EnglishMovies"
+                      >English Movies</a
+                    >
+                    <a href="http://localhost:3000/category/AdultMovies"
+                      >Adult Movies</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      GENRE <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="http://localhost:3000/category/action">Action</a>
+                    <a href="http://localhost:3000/category/adventure"
+                      >Adventure</a
+                    >
+                    <a href="http://localhost:3000/category/animated"
+                      >Animated</a
+                    >
+                    <a href="http://localhost:3000/category/comedy">Comedy</a>
+                    <a href="http://localhost:3000/category/crime">Crime</a>
+                    <a href="http://localhost:3000/category/fantasy">Fantasy</a>
+                    <a href="http://localhost:3000/category/horror">Horror</a>
+                    <a href="http://localhost:3000/category/mystery">Mystery</a>
+                    <a href="http://localhost:3000/category/scifi">Sci-Fi</a>
+                    <a href="http://localhost:3000/category/Romance">Romance</a>
+                    <a href="http://localhost:3000/category/drama">Drama</a>
+                    <a href="http://localhost:3000/category/thriller"
+                      >Thriller</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      YEAR <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="http://localhost:3000/category/2021MOVIES">2021 MOVIES</a>
+                    <a href="http://localhost:3000/category/2020MOVIES">2020 MOVIES</a>
+                    <a href="http://localhost:3000/category/2019MOVIES">2019 MOVIES</a>
+                    <a href="http://localhost:3000/category/2018">2018</a>
+                    <a href="http://localhost:3000/category/2017">2017</a>
+                    <a href="http://localhost:3000/category/2016">2016</a>
+                    <a href="http://localhost:3000/category/2015">2015</a>
+                    <a href="http://localhost:3000/category/2014">2014</a>
+                    <a href="http://localhost:3000/category/2013">2013</a>
+                    <a href="http://localhost:3000/category/2012">2012</a>
+                    <a href="http://localhost:3000/category/2011">2011</a>
+                    <a href="http://localhost:3000/category/2006-2010">2006-2010</a>
+                    <a href="http://localhost:3000/category/2001-2005">2001-2005</a>
+                    <a href="http://localhost:3000/category/1991-2000">1991-2000</a>
+                    <a href="http://localhost:3000/category/1980-1990">1980-1990</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <span
+            style="font-size: 30px; cursor: pointer"
+            class="tog"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+>>>>>>> extra
         </div>
       </div>
       <!-- FINISH CONTAINER -->
@@ -60,7 +234,11 @@
       <!-- TODO: NAVBAR BUTTONS -->
       <div class="btnHeader">
         <div class="row1">
+<<<<<<< HEAD
           <a href="">
+=======
+          <a href="http://localhost:3000/">
+>>>>>>> extra
             <div
               style="background-color: rgb(255, 255, 255)"
               class="dropbtn text-blue px-3 py-2 rounded-md text-sm font-medium"
@@ -83,12 +261,27 @@
               MOVIES <i class="bi bi-chevron-down"></i>
             </button>
             <div class="dropdown-content rounded-md shadow-lg">
+<<<<<<< HEAD
               <a href="#">Latest Released</a>
               <a href="#">Hollywood Movies</a>
               <a href="#">English Movies</a>
               <a href="#">Adult Movies</a>
               <a href="#">Dual Audio</a>
               <a href="#">Multi Audio</a>
+=======
+              <a href="http://localhost:3000/category/LatestReleased"
+                >Latest Released</a
+              >
+              <a href="http://localhost:3000/category/HollywoodMovies"
+                >Hollywood Movies</a
+              >
+              <a href="http://localhost:3000/category/EnglishMovies"
+                >English Movies</a
+              >
+              <a href="http://localhost:3000/category/AdultMovies"
+                >Adult Movies</a
+              >
+>>>>>>> extra
             </div>
           </div>
 
@@ -108,6 +301,7 @@
               <i class="bi bi-chevron-down"></i>
             </button>
             <div class="dropdown-content rounded-md shadow-lg">
+<<<<<<< HEAD
               <a href="#">Action</a>
               <a href="#">Adventure</a>
               <a href="#">Animated</a>
@@ -120,6 +314,20 @@
               <a href="#">Romance</a>
               <a href="#">Drama</a>
               <a href="#">Thriller</a>
+=======
+              <a href="http://localhost:3000/category/action">Action</a>
+              <a href="http://localhost:3000/category/adventure">Adventure</a>
+              <a href="http://localhost:3000/category/animated">Animated</a>
+              <a href="http://localhost:3000/category/comedy">Comedy</a>
+              <a href="http://localhost:3000/category/crime">Crime</a>
+              <a href="http://localhost:3000/category/fantasy">Fantasy</a>
+              <a href="http://localhost:3000/category/horror">Horror</a>
+              <a href="http://localhost:3000/category/mystery">Mystery</a>
+              <a href="http://localhost:3000/category/scifi">Sci-Fi</a>
+              <a href="http://localhost:3000/category/Romance">Romance</a>
+              <a href="http://localhost:3000/category/drama">Drama</a>
+              <a href="http://localhost:3000/category/thriller">Thriller</a>
+>>>>>>> extra
             </div>
           </div>
           <div class="dropdown">
@@ -138,6 +346,7 @@
               <i class="bi bi-chevron-down"></i>
             </button>
             <div class="dropdown-content rounded-md shadow-lg">
+<<<<<<< HEAD
               <a href="#">2021 MOVIES</a>
               <a href="#">2020 MOVIES</a>
               <a href="#">2019 MOVIES</a>
@@ -153,11 +362,32 @@
               <a href="#">2001-2005</a>
               <a href="#">1991-2000</a>
               <a href="#">1980-1990</a>
+=======
+              <a href="http://localhost:3000/category/2021MOVIES">2021 MOVIES</a>
+              <a href="http://localhost:3000/category/2020MOVIES">2020 MOVIES</a>
+              <a href="http://localhost:3000/category/2019MOVIES">2019 MOVIES</a>
+              <a href="http://localhost:3000/category/2018">2018</a>
+              <a href="http://localhost:3000/category/2017">2017</a>
+              <a href="http://localhost:3000/category/2016">2016</a>
+              <a href="http://localhost:3000/category/2015">2015</a>
+              <a href="http://localhost:3000/category/2014">2014</a>
+              <a href="http://localhost:3000/category/2013">2013</a>
+              <a href="http://localhost:3000/category/2012">2012</a>
+              <a href="http://localhost:3000/category/2011">2011</a>
+              <a href="http://localhost:3000/category/2006-2010">2006-2010</a>
+              <a href="http://localhost:3000/category/2001-2005">2001-2005</a>
+              <a href="http://localhost:3000/category/1991-2000">1991-2000</a>
+              <a href="http://localhost:3000/category/1980-1990">1980-1990</a>
+>>>>>>> extra
             </div>
           </div>
         </div>
 
+<<<<<<< HEAD
         <div class="row1">
+=======
+        <!-- <div class="row1">
+>>>>>>> extra
           <div class="dropdown">
             <button
               class="
@@ -239,7 +469,11 @@
               BOLLYWOOD
             </div>
           </a>
+<<<<<<< HEAD
         </div>
+=======
+        </div> -->
+>>>>>>> extra
       </div>
       <!-- END FOOTER NAVBAR -->
     </div>

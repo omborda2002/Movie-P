@@ -9,6 +9,8 @@
   display: block;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: margin-left .5s;
+  z-index: initial;
 }
 
 /* TODO: NAVBAR CSS  */
@@ -29,11 +31,14 @@ a .dropbtn {
 .d-flex.flex-row.searchField {
   justify-content: end;
   width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row;
 }
 
 .dropbtn:hover {
   opacity: 0.95;
-  border: 3px solid rgb(105, 244, 24);
+  border: 3px solid #ffffff;
   transition: 500ms;
 }
 .dropdown button {
@@ -47,7 +52,13 @@ a .dropbtn {
   min-width: 160px;
   z-index: 1;
 }
-
+.dropdown button{
+  align-self: center;
+  background-color: rgb(31,110,235);
+}
+.dropdown{
+  align-self: center;
+}
 .bi:hover {
   transform: rotate(0.5turn);
   transition: 500ms;
@@ -88,8 +99,57 @@ i.bi.bi-chevron-down {
 .Navbar__Items {
   display: flex;
 }
-.toggle {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.btn.btn-link.ripple-surface.collapsed {
+  width: 100%;
+}
+button.btn.btn-link {
+  width: 100%;
+}
+.sidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  margin: 5%;
+  display: block;
+  transition: 0.3s;
+}
+#alag{
+  margin: 0px;
+}
+.card{
+  margin: 2%;
+}
+.sidenav button {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+span.tog {
   display: none;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  margin: 0px;
+  right: 25px;
+  font-size: 36px;
+  color: white;
+  margin-left: 50px;
 }
 
 #page {
@@ -99,7 +159,7 @@ i.bi.bi-chevron-down {
   clear: both;
   width: 100%;
   padding: 1%;
-  background-color: black;
+  background-color: rgb(0,10,29);
 }
 #content_box {
   display: block;
@@ -110,7 +170,7 @@ i.bi.bi-chevron-down {
   /* justify-content: end; */
 }
 #content_box .head {
-  background-color: #1b1b1b;
+  background-color: rgb(22,27,34);
   padding: 15px;
   width: 100%;
   height: auto;
@@ -298,6 +358,9 @@ i.bi.bi-chevron-down {
   color: rgb(0, 0, 0);
   align-self: center;
 }
+.input-group {
+  margin-bottom: 0px;
+}
 
 .download_area {
   align-self: center;
@@ -309,11 +372,25 @@ i.bi.bi-chevron-down {
   width: 100%;
   display: flex;
   margin: 2% 0px;
+  
+  font-family: "Roboto", sans-serif;
   flex-direction: row;
 }
 .downloading .btn {
   margin: auto;
+  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  color: white;
+  background-color: #03045e;
+  width: auto;
+  height: auto;
+  font-size: 20px;
 }
+.downloading .btn:hover {
+  border: 5px solid rgb(178, 241, 141) ;
+  transition: 400ms;
+  color: #ff0048;
+}
+
 .downloading i {
   margin-left: 3px;
 }
@@ -380,12 +457,14 @@ i.bi.bi-chevron-down {
   flex-direction: row;
   cursor: pointer;
   height: auto;
+  box-shadow: 0 3px 10px rgb(58 134 255 / 0.2);
   margin-top: 3%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(22,27,34);
   font-family: "Oswald", sans-serif;
 }
 .images_post:hover {
-  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.9);
+  transition: 700ms;
 }
 .images_post img:hover {
   opacity: 0.9;
@@ -396,7 +475,7 @@ i.bi.bi-chevron-down {
   text-align: center;
   align-self: center;
   font-size: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
 }
 
 .name_otherPosts button {
@@ -426,6 +505,10 @@ i.bi.bi-chevron-down {
 /* --------------------------------------------------------------------------- */
 
 /* TODO:  MEDIA QUERYS*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 @media screen and (max-width: 360px) {
 }
 
@@ -436,10 +519,25 @@ i.bi.bi-chevron-down {
     display: none;
   }
   .flex-1.flex.items-center.justify-center.iconSearch {
-    height: 100%;
+    height: auto;
   }
   .bothPadding {
     padding: 10px;
+    width: auto;
+    margin-left: 15px;
+  }
+  span.tog {
+    display: block;
+    background-color: #6b6b6b;
+  }
+  .tog {
+    display: block;
+    color: white;
+    height: 50px;
+    margin: 0px;
+    border-radius: 9px;
+    padding: 0px 5px;
+    align-self: center;
   }
   .d-flex.flex-row.searchField {
     justify-content: space-evenly;
@@ -459,9 +557,6 @@ i.bi.bi-chevron-down {
   .iconSearch {
     flex-direction: column;
   }
-  .toggle {
-    display: none;
-  }
   .bothPadding {
     padding: 10px;
   }
@@ -478,20 +573,10 @@ i.bi.bi-chevron-down {
 
 /* SPECIALLY FOR TOGGLE BUTTON */
 @media (max-width: 576px) {
-  .toggle {
-    display: block;
-    border-radius: 5px;
-    width: fit-content;
-    /* position: absolute; */
-    cursor: pointer;
-    height: fit-content;
-    align-self: center;
-    background-color: #1b1b1b;
-  }
   .d-flex.flex-row.searchField {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
   }
   .Navbar__Items {
     flex-direction: column;
