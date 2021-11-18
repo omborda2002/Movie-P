@@ -27,7 +27,7 @@
           <div class="random_posts">
             <% let i1=10+(num*10); let i=num*10;%> <%
             if(i1>data.length){i1=data.length} %> <%for(i; i < i1 ;){ let
-            temp=i;%>
+            temp=i+1;%>
 
             <section class="other_movies_head">
               <a
@@ -64,15 +64,16 @@
                 </div>
               </a>
               <div style="width: 2%; height: auto"></div>
+              <% if(temp>data.length-1){}else{%>
               <a
                 class="images_post"
-                href="http://localhost:3000/inner/<%= data[temp+1].name %> "
+                href="http://localhost:3000/inner/<%= data[temp].name %> "
               >
-                <img src="<%=data[temp+1].post_ss %>" alt="" srcset="" />
+                <img src="<%=data[temp].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
                     <h2 style="text-shadow: #fc0 1px 0 10px">
-                      <%= data[temp+1].name %> (<%= data[temp+1].year %>)
+                      <%= data[temp].name %> (<%= data[temp].year %>)
                     </h2>
                     <hr />
                     <div
@@ -84,12 +85,12 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        <%= data[temp+1].imdb %>
+                        <%= data[temp].imdb %>
                         <span style="color: #555555">/10</span>
                       </h3>
                     </div>
                     <hr />
-                    <h3><%= data[temp+1].language %></h3>
+                    <h3><%= data[temp].language %></h3>
                     <hr />
                     <h3>480P-720P-1080P</h3>
                     <hr />
@@ -97,6 +98,7 @@
                   </div>
                 </div>
               </a>
+              <% } %>
             </section>
             <% i=i+2;} %>
           </div>
