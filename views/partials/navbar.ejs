@@ -47,32 +47,151 @@
               </button>
             </form>
           </div>
+          <!-- FIXME: -->
 
-          <!-- FIXME: toggle button -->
-          <div id="myNav" class="overlay">
+          <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
               >&times;</a
             >
-            <div class="overlay-content">
-              <button class="" onclick="btnClick()">
-                GENRE
-                <i class="bi bi-chevron-down"></i>
-              </button>
-              <div class="thenn">
-                <a href=""> Latest Released </a>
-                <a href=""> Hollywood Movies </a>
-                <a href=""> English Movies </a>
-                <a href=""> Adult Movies </a>
+
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link">
+                      <a href="http://localhost:3000/" id="alag">HOME</a>
+                    </button>
+                  </h5>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      MOVIES <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="http://localhost:3000/category/LatestReleased"
+                      >Latest Released</a
+                    >
+                    <a href="http://localhost:3000/category/HollywoodMovies"
+                      >Hollywood Movies</a
+                    >
+                    <a href="http://localhost:3000/category/EnglishMovies"
+                      >English Movies</a
+                    >
+                    <a href="http://localhost:3000/category/AdultMovies"
+                      >Adult Movies</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      GENRE <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="http://localhost:3000/category/action">Action</a>
+                    <a href="http://localhost:3000/category/adventure"
+                      >Adventure</a
+                    >
+                    <a href="http://localhost:3000/category/animated"
+                      >Animated</a
+                    >
+                    <a href="http://localhost:3000/category/comedy">Comedy</a>
+                    <a href="http://localhost:3000/category/crime">Crime</a>
+                    <a href="http://localhost:3000/category/fantasy">Fantasy</a>
+                    <a href="http://localhost:3000/category/horror">Horror</a>
+                    <a href="http://localhost:3000/category/mystery">Mystery</a>
+                    <a href="http://localhost:3000/category/scifi">Sci-Fi</a>
+                    <a href="http://localhost:3000/category/Romance">Romance</a>
+                    <a href="http://localhost:3000/category/drama">Drama</a>
+                    <a href="http://localhost:3000/category/thriller"
+                      >Thriller</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      YEAR <i class="bi bi-caret-down-fill"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    <a href="#">2021 MOVIES</a>
+                    <a href="#">2020 MOVIES</a>
+                    <a href="#">2019 MOVIES</a>
+                    <a href="#">2018</a>
+                    <a href="#">2017</a>
+                    <a href="#">2016</a>
+                    <a href="#">2015</a>
+                    <a href="#">2014</a>
+                    <a href="#">2013</a>
+                    <a href="#">2012</a>
+                    <a href="#">2011</a>
+                    <a href="#">2006-2010</a>
+                    <a href="#">2001-2005</a>
+                    <a href="#">1991-2000</a>
+                    <a href="#">1980-1990</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
           <span
             style="font-size: 30px; cursor: pointer"
             class="tog"
             onclick="openNav()"
             >&#9776;</span
           >
-          <!-- FIXME: -->
         </div>
       </div>
       <!-- FINISH CONTAINER -->

@@ -8,6 +8,8 @@
   display: block;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: margin-left .5s;
+  z-index: initial;
 }
 
 /* TODO: NAVBAR CSS  */
@@ -95,64 +97,59 @@ i.bi.bi-chevron-down {
 }
 
 /* FIXME:  */
-.overlay {
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 4;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
+  padding-top: 60px;
 }
-.tog {
-  display: none;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
+.btn.btn-link.ripple-surface.collapsed {
   width: 100%;
-  text-align: center;
-  margin-top: 30px;
 }
-.overlay-content button {
-  font-size: 25px;
-  background-color: greenyellow;
+button.btn.btn-link {
   width: 100%;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
-.overlay a {
-  padding: 8px;
+.sidenav a {
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  transition:700ms;
-  display: block;
-}
-.thenn {
-  display: none;
-  
-}
-
-/* .overlay button:hover {
+  font-size: 20px;
   color: #000000;
-}
-.overlay:hover .thenn {
+  margin: 5%;
   display: block;
-  transition:700ms;
-} */
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  transition: 0.3s;
 }
-
+#alag{
+  margin: 0px;
+}
+.card{
+  margin: 2%;
+}
+.sidenav button {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+span.tog {
+  display: none;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  margin: 0px;
+  right: 25px;
+  font-size: 36px;
+  color: white;
+  margin-left: 50px;
+}
+/* FIXME: Random Section */
 #page {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -163,8 +160,6 @@ i.bi.bi-chevron-down {
   padding: 1%;
   background-color: rgb(0, 10, 29);
 }
-
-/* FIXME: Random Section */
 
 .random_posts {
   width: 100%;
@@ -284,15 +279,10 @@ i.bi.bi-chevron-down {
 }
 
 /* --------------------------------------------------------------------------- */
+
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 /* TODO:  MEDIA QUERYS*/
 @media screen and (max-width: 360px) {
@@ -305,15 +295,25 @@ i.bi.bi-chevron-down {
     display: none;
   }
   .flex-1.flex.items-center.justify-center.iconSearch {
-    height: 100%;
+    height: auto;
   }
   .bothPadding {
     padding: 10px;
     width: auto;
     margin-left: 15px;
   }
+  span.tog {
+    display: block;
+    background-color: #6b6b6b;
+  }
   .tog {
     display: block;
+    color: white;
+    height: 50px;
+    margin: 0px;
+    border-radius: 9px;
+    padding: 0px 5px;
+    align-self: center;
   }
   .d-flex.flex-row.searchField {
     justify-content: space-evenly;
@@ -349,24 +349,15 @@ i.bi.bi-chevron-down {
 
 /* SPECIALLY FOR TOGGLE BUTTON */
 @media (max-width: 576px) {
-  .toggle {
-    display: block;
-    border-radius: 5px;
-    width: fit-content;
-    /* position: absolute; */
-    cursor: pointer;
-    height: fit-content;
-    align-self: center;
-    background-color: #1b1b1b;
-  }
   .d-flex.flex-row.searchField {
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
   }
   .Navbar__Items {
     flex-direction: column;
   }
+  
 }
 
 /* -----------------NEW------------------- */
