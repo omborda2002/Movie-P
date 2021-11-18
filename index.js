@@ -342,93 +342,92 @@ app.get("/category/:sub", (req, res) => {
       }
     }
   }
-  if (sub =="2006-2010") {
+  if (sub == "2006-2010") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
       if (data[i].year == 2006) {
         arr.push(data[i]);
-      }else if (data[i].year == 2007){
-        arr.push(data[i])
-      }else if (data[i].year == 2008){
-        arr.push(data[i])
-      }else if (data[i].year == 2009){
-        arr.push(data[i])
-      }else if (data[i].year == 2010){
-        arr.push(data[i])
+      } else if (data[i].year == 2007) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2008) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2009) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2010) {
+        arr.push(data[i]);
       }
     }
   }
-  if (sub =="2001-2005") {
+  if (sub == "2001-2005") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
       if (data[i].year == 2001) {
         arr.push(data[i]);
-      }else if (data[i].year == 2002){
-        arr.push(data[i])
-      }else if (data[i].year == 2003){
-        arr.push(data[i])
-      }else if (data[i].year == 2004){
-        arr.push(data[i])
-      }else if (data[i].year == 2005){
-        arr.push(data[i])
+      } else if (data[i].year == 2002) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2003) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2004) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2005) {
+        arr.push(data[i]);
       }
     }
   }
-  if (sub =="1991-2000") {
+  if (sub == "1991-2000") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
       if (data[i].year == 1991) {
         arr.push(data[i]);
-      }else if (data[i].year == 1992){
-        arr.push(data[i])
-      }else if (data[i].year == 1993){
-        arr.push(data[i])
-      }else if (data[i].year == 1994){
-        arr.push(data[i])
-      }else if (data[i].year == 1995){
-        arr.push(data[i])
-      }else if (data[i].year == 1996){
-        arr.push(data[i])
-      }else if (data[i].year == 1997){
-        arr.push(data[i])
-      }else if (data[i].year == 1998){
-        arr.push(data[i])
-      }else if (data[i].year == 1999){
-        arr.push(data[i])
-      }else if (data[i].year == 2000){
-        arr.push(data[i])
+      } else if (data[i].year == 1992) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1993) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1994) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1995) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1996) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1997) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1998) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1999) {
+        arr.push(data[i]);
+      } else if (data[i].year == 2000) {
+        arr.push(data[i]);
       }
     }
   }
-  if (sub =="1980-1990") {
+  if (sub == "1980-1990") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
       if (data[i].year == 1980) {
         arr.push(data[i]);
-      }else if (data[i].year == 1981){
-        arr.push(data[i])
-      }else if (data[i].year == 1982){
-        arr.push(data[i])
-      }else if (data[i].year == 1983){
-        arr.push(data[i])
-      }else if (data[i].year == 1984){
-        arr.push(data[i])
-      }else if (data[i].year == 1985){
-        arr.push(data[i])
-      }else if (data[i].year == 1986){
-        arr.push(data[i])
-      }else if (data[i].year == 1987){
-        arr.push(data[i])
-      }else if (data[i].year == 1988){
-        arr.push(data[i])
-      }else if (data[i].year == 1989){
-        arr.push(data[i])
-      }else if (data[i].year == 1990){
-        arr.push(data[i])
+      } else if (data[i].year == 1981) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1982) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1983) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1984) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1985) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1986) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1987) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1988) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1989) {
+        arr.push(data[i]);
+      } else if (data[i].year == 1990) {
+        arr.push(data[i]);
       }
     }
   }
-  
 
   res.render("s", { arr });
 });
@@ -477,15 +476,11 @@ app.get("/search", (req, res) => {
   res.render("s", { arr });
 });
 
-app.get("/search",(req,res) => {
+app.get("/search", (req, res) => {
   console.log(req.query);
   res.send("Ok Search !");
-})
+});
 
 app.listen(3000, () => {
   console.log("Example app listening at http://localhost:3000");
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> extra
