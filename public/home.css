@@ -8,7 +8,7 @@
   display: block;
   flex-direction: column;
   justify-content: space-evenly;
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   z-index: initial;
 }
 
@@ -61,12 +61,9 @@ a .dropbtn {
   display: block;
 }
 .dropdown button {
-<<<<<<< HEAD
-=======
   background-color: rgb(31, 110, 235);
 }
 .dropdown {
->>>>>>> extra
   align-self: center;
 }
 .dropdown-content a:hover {
@@ -126,10 +123,10 @@ button.btn.btn-link {
   display: block;
   transition: 0.3s;
 }
-#alag{
+#alag {
   margin: 0px;
 }
-.card{
+.card {
   margin: 2%;
 }
 .sidenav button {
@@ -161,11 +158,8 @@ span.tog {
   width: 100%;
   padding-top: 0px;
   padding: 1%;
-<<<<<<< HEAD
   background-color: #11151c;
-=======
   background-color: rgb(0, 10, 29);
->>>>>>> extra
 }
 /* fdf0d5   2b2d42  adb5bd  424b54 color bg */
 
@@ -187,16 +181,15 @@ span.tog {
   flex-direction: row;
   flex-wrap: row;
 }
-<<<<<<< HEAD
-.other_movies_head:last-child{
-  margin-bottom: 3%;
-}
-=======
+
 .other_movies_head:last-child {
   margin-bottom: 3%;
 }
 
->>>>>>> extra
+.other_movies_head:last-child {
+  margin-bottom: 3%;
+}
+
 .images_post {
   width: 47%;
   display: flex;
@@ -245,7 +238,6 @@ span.tog {
   list-style-type: none;
 }
 
-<<<<<<< HEAD
 /* Number-Bar */
 .container {
   font-family: Arial Helvetica sans-serif;
@@ -259,9 +251,6 @@ span.tog {
   padding-left: 0;
   list-style-type: none;
 }
-
-=======
->>>>>>> extra
 .page-number {
   display: inline;
 }
@@ -293,18 +282,17 @@ span.tog {
 .pagination-2 .active a {
   color: #f3f4f2;
 }
-<<<<<<< HEAD
 
 /* TODO: footer */
 .foooter {
   width: 100%;
   background-color: #001d3d;
-=======
+}
 /* TODO: footer */
 .foooter {
   width: 100%;
   background-color: rgb(0, 10, 29);
->>>>>>> extra
+
   height: 50px;
   text-align: center;
 }
@@ -320,8 +308,12 @@ span.tog {
 /* --------------------------------------------------------------------------- */
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 /* TODO:  MEDIA QUERYS*/
 @media screen and (max-width: 360px) {
@@ -396,7 +388,6 @@ span.tog {
   .Navbar__Items {
     flex-direction: column;
   }
-  
 }
 
 /* -----------------NEW------------------- */
