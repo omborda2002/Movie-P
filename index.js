@@ -4,7 +4,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const data = require("./data.json");
 let datam;
-let arr =[];
+let arr = [];
 // TODO: JSON DATA
 // fs.readFile("./data.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -195,7 +195,7 @@ app.get("/category/:sub", (req, res) => {
       }
     }
 
-    console.log(arr)
+    console.log(arr);
   }
   if (sub == "drama") {
     arr = [];
@@ -252,12 +252,189 @@ app.get("/category/:sub", (req, res) => {
       }
     }
   }
+
+  if (sub == "2021MOVIES") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2021) {
+        arr.push(data[i]);
+      }
+    }
+  }
+
+  if (sub == "2020MOVIES") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2020) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2019MOVIES") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2019) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2018") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2018) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2017") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2017) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2016") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2016) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2015") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2015) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2014") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2014) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2013") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2013) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2012") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2012) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "2011") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2011) {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub =="2006-2010") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2006) {
+        arr.push(data[i]);
+      }else if (data[i].year == 2007){
+        arr.push(data[i])
+      }else if (data[i].year == 2008){
+        arr.push(data[i])
+      }else if (data[i].year == 2009){
+        arr.push(data[i])
+      }else if (data[i].year == 2010){
+        arr.push(data[i])
+      }
+    }
+  }
+  if (sub =="2001-2005") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 2001) {
+        arr.push(data[i]);
+      }else if (data[i].year == 2002){
+        arr.push(data[i])
+      }else if (data[i].year == 2003){
+        arr.push(data[i])
+      }else if (data[i].year == 2004){
+        arr.push(data[i])
+      }else if (data[i].year == 2005){
+        arr.push(data[i])
+      }
+    }
+  }
+  if (sub =="1991-2000") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 1991) {
+        arr.push(data[i]);
+      }else if (data[i].year == 1992){
+        arr.push(data[i])
+      }else if (data[i].year == 1993){
+        arr.push(data[i])
+      }else if (data[i].year == 1994){
+        arr.push(data[i])
+      }else if (data[i].year == 1995){
+        arr.push(data[i])
+      }else if (data[i].year == 1996){
+        arr.push(data[i])
+      }else if (data[i].year == 1997){
+        arr.push(data[i])
+      }else if (data[i].year == 1998){
+        arr.push(data[i])
+      }else if (data[i].year == 1999){
+        arr.push(data[i])
+      }else if (data[i].year == 2000){
+        arr.push(data[i])
+      }
+    }
+  }
+  if (sub =="1980-1990") {
+    arr = [];
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].year == 1980) {
+        arr.push(data[i]);
+      }else if (data[i].year == 1981){
+        arr.push(data[i])
+      }else if (data[i].year == 1982){
+        arr.push(data[i])
+      }else if (data[i].year == 1983){
+        arr.push(data[i])
+      }else if (data[i].year == 1984){
+        arr.push(data[i])
+      }else if (data[i].year == 1985){
+        arr.push(data[i])
+      }else if (data[i].year == 1986){
+        arr.push(data[i])
+      }else if (data[i].year == 1987){
+        arr.push(data[i])
+      }else if (data[i].year == 1988){
+        arr.push(data[i])
+      }else if (data[i].year == 1989){
+        arr.push(data[i])
+      }else if (data[i].year == 1990){
+        arr.push(data[i])
+      }
+    }
+  }
+  
+
   res.render("s", { arr });
 });
 
 app.get("/page/:num", (req, res) => {
   const { num } = req.params;
-  console.log(num);
   res.render("home", { num, data });
 });
 
@@ -265,7 +442,6 @@ app.get("/page/:num", (req, res) => {
 app.get("/search", (req, res) => {
   console.log(req.query);
   const { q } = req.query;
-  console.log(q.toLowerCase());
 
   let str = q.toLowerCase();
   // console.log(data[0].name);
@@ -277,23 +453,20 @@ app.get("/search", (req, res) => {
     let c = 0;
 
     for (let j = 0; j < lm; j++) {
-      let temp = main.substring(j, ls+j);
+      let temp = main.substring(j, ls + j);
       // console.log(`${temp} , ${str}`);
-      
+
       if (temp == str) {
         c++;
-        
+
         // console.log(`count ${c}`);
       }
     }
     if (c >= 1) {
-      
       arr.push(data[i]);
       // console.log(`log  ${data[i]}`);
     }
   }
-
-  console.log(arr);
 
   //search value :
   // for (let i = 0; i < data.length; i++) {
