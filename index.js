@@ -182,6 +182,16 @@ app.get("/category/:sub", (req, res) => {
         arr.push(data[i]);
       } else if (data[i].genre == "sci-Fi") {
         arr.push(data[i]);
+      }else if (data[i].genre == "sci-Fi") {
+        arr.push(data[i]);
+      }else if (data[i].genre == "SciFi") {
+        arr.push(data[i]);
+      }else if (data[i].genre == "Scifi") {
+        arr.push(data[i]);
+      }else if (data[i].genre == "sciFi") {
+        arr.push(data[i]);
+      }else if (data[i].genre == "scifi") {
+        arr.push(data[i]);
       }
     }
   }
