@@ -274,7 +274,7 @@
             <% rand2 = Math.floor(Math.random()*10+10);%> 
             <% for(let i = 0; i < 2;i++) { %>
             <section class="other_movies_head">
-              <div class="images_post">
+              <a href="http://localhost:3000/inner/<%= data[rand1].name %> " class="images_post">
                 <img src="<%= data[rand1].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
@@ -304,9 +304,9 @@
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a>
               <div style="width: 2%; height: auto"></div>
-              <div class="images_post">
+              <a href="http://localhost:3000/inner/<%= data[rand2].name %> " class="images_post">
                 <img
                   width="284"
                   height="420"
@@ -340,7 +340,7 @@
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </div>
+              </a >
             </section>
             <% rand1++;rand2++; %> 
             <% } %>
