@@ -218,12 +218,20 @@ app.get("/category/:sub", (req, res) => {
     }
   }
 
-  if (sub == "EnglishMovies") {
+  if (sub == "DualAudio") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
-      if (data[i].language == "English") {
+      if (data[i].language == "Dual Audio") {
         arr.push(data[i]);
-      } else if (data[i].language == "english") {
+      } else if (data[i].language == "Dualaudio") {
+        arr.push(data[i]);
+      } else if (data[i].language == "dualaudio") {
+        arr.push(data[i]);
+      } else if (data[i].language == "Dualaudio") {
+        arr.push(data[i]);
+      } else if (data[i].language == "Dual audio") {
+        arr.push(data[i]);
+      }else if (data[i].language == "dual audio") {
         arr.push(data[i]);
       }
     }
@@ -233,9 +241,20 @@ app.get("/category/:sub", (req, res) => {
     arr = [];
 
     for (let i = 0; i < data.length; i++) {
-      if (data[i].language == "hollywood") {
+      if (data[i].type == "hollywood") {
         arr.push(data[i]);
-      } else if (data[i].language == "Hollywood") {
+      } else if (data[i].type == "Hollywood") {
+        arr.push(data[i]);
+      }
+    }
+  }
+  if (sub == "Bollywood") {
+    arr = [];
+
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].type == "bollywood") {
+        arr.push(data[i]);
+      } else if (data[i].type == "Bollywood") {
         arr.push(data[i]);
       }
     }
@@ -467,13 +486,6 @@ app.get("/search", (req, res) => {
       // console.log(`log  ${data[i]}`);
     }
   }
-
-  //search value :
-  // for (let i = 0; i < data.length; i++) {
-  //   if (data[i].name == q) {
-  //     dataSearch = data[i];
-  //   }
-  // }
   res.render("s", { arr });
 });
 
