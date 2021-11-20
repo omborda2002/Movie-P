@@ -230,7 +230,9 @@ span.tog {
   padding-left: 0;
   list-style-type: none;
 }
-
+.pagination-2 {
+  color: #000000;
+}
 .page-number {
   display: inline;
 }
@@ -243,6 +245,7 @@ span.tog {
 /* Pagination 2 */
 .pagination-2 .page-number {
   padding: 8px 16px;
+  color: #000000;
   background-color: #f3f4f2;
 }
 
@@ -252,6 +255,7 @@ span.tog {
 
 .pagination-2 .active {
   border-radius: 4px;
+  color: white;
   background-color: #16425b;
 }
 
@@ -260,7 +264,7 @@ span.tog {
 }
 
 .pagination-2 .active a {
-  color: #f3f4f2;
+  color: #ffffff;
 }
 /* TODO: footer */
 .foooter {
