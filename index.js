@@ -282,6 +282,29 @@ app.get("/category/:sub", (req, res) => {
     }
   }
 
+  if (sub == "WebSeries") {
+    arr = [];
+
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].type == "Web-Series") {
+        arr.push(data[i]);
+      }else if (data[i].type == "webseries") {
+        arr.push(data[i]);
+      }else if (data[i].type == "Webseries") {
+        arr.push(data[i]);
+      }else if (data[i].type == "webSeries") {
+        arr.push(data[i]);
+      }else if (data[i].type == "Web-series") {
+        arr.push(data[i]);
+      }else if (data[i].type == "web-series") {
+        arr.push(data[i]);
+      }else if (data[i].type == "Web-series") {
+        arr.push(data[i]);
+      }else if (data[i].type == "web-Series") {
+        arr.push(data[i]);
+      }
+    }
+  }
   if (sub == "2021MOVIES") {
     arr = [];
     for (let i = 0; i < data.length; i++) {
