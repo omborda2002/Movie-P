@@ -38,7 +38,7 @@ app.get("/inner/:name", (req, res) => {
       break;
     }
   }
-
+  console.log(datam)
   res.render("inner", { datam, data });
   // res.render("inner",{datam:data[name.valueOf()]});
 });

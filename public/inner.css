@@ -4,12 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans&family=Orbitron:wght@500&family=Roboto+Mono&family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans&family=Orbitron:wght@500&family=Oswald&family=Roboto+Mono&family=Titillium+Web&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Mohave&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mohave&family=Roboto&display=swap");
 .container-sm {
   display: block;
   flex-direction: column;
   justify-content: space-evenly;
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   z-index: initial;
 }
 
@@ -50,11 +50,11 @@ a .dropbtn {
   min-width: 160px;
   z-index: 1;
 }
-.dropdown button{
+.dropdown button {
   align-self: center;
-  background-color: rgb(31,110,235);
+  background-color: rgb(31, 110, 235);
 }
-.dropdown{
+.dropdown {
   align-self: center;
 }
 .bi:hover {
@@ -123,10 +123,10 @@ button.btn.btn-link {
   display: block;
   transition: 0.3s;
 }
-#alag{
+#alag {
   margin: 0px;
 }
-.card{
+.card {
   margin: 2%;
 }
 .sidenav button {
@@ -157,7 +157,7 @@ span.tog {
   clear: both;
   width: 100%;
   padding: 1%;
-  background-color: rgb(0,10,29);
+  background-color: rgb(0, 10, 29);
 }
 #content_box {
   display: block;
@@ -168,7 +168,7 @@ span.tog {
   /* justify-content: end; */
 }
 #content_box .head {
-  background-color: rgb(22,27,34);
+  background-color: rgb(22, 27, 34);
   padding: 15px;
   width: 100%;
   height: auto;
@@ -370,13 +370,18 @@ span.tog {
   width: 100%;
   display: flex;
   margin: 2% 0px;
-  
+
   font-family: "Roboto", sans-serif;
   flex-direction: row;
 }
-.downloading .btn {
+.downloading a {
   margin: auto;
-  box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  width: auto;
+  height: auto;
+}
+.downloading a .btn {
+  margin: auto;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
   color: white;
   background-color: #03045e;
   width: auto;
@@ -384,7 +389,7 @@ span.tog {
   font-size: 20px;
 }
 .downloading .btn:hover {
-  border: 5px solid rgb(178, 241, 141) ;
+  border: 5px solid rgb(178, 241, 141);
   transition: 400ms;
   color: #ff0048;
 }
@@ -400,7 +405,7 @@ span.tog {
   letter-spacing: 0.5px;
   margin: 1.5%;
   font-weight: 500;
-  font-family: 'Mohave', sans-serif;
+  font-family: "Mohave", sans-serif;
   margin-bottom: 5%;
   padding: 1%;
 }
@@ -446,7 +451,7 @@ span.tog {
   flex-direction: row;
   flex-wrap: row;
 }
-.other_movies_head:last-child{
+.other_movies_head:last-child {
   margin-bottom: 3%;
 }
 .images_post {
@@ -457,7 +462,7 @@ span.tog {
   height: auto;
   box-shadow: 0 3px 10px rgb(58 134 255 / 0.2);
   margin-top: 3%;
-  background-color: rgb(22,27,34);
+  background-color: rgb(22, 27, 34);
   font-family: "Oswald", sans-serif;
 }
 .images_post:hover {
@@ -504,8 +509,12 @@ span.tog {
 
 /* TODO:  MEDIA QUERYS*/
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 360px) {
 }
@@ -629,7 +638,8 @@ span.tog {
   .other_movies_head {
     flex-direction: column;
     align-items: center;
-  }.resolution_wise {
+  }
+  .resolution_wise {
     font-size: 22px;
   }
 }

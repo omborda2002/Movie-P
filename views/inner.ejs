@@ -221,27 +221,33 @@
             </div>
             <div class="download_area">
               <div class="resolution_wise">
-                <p>Bhag Milkha Bhag (Hindi-English) - 480P</p>
+                <p><%=datam.name%> (<%=datam.language%>) - 480P</p>
+                <div class="downloading">
+                  <a href="http://localhost:3001/<%=datam.name%>">
+                    <button type="button" class="btn">
+                      Download <i class="bi bi-download"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="resolution_wise">
+                <p><%=datam.name%> (<%=datam.language%>) - 720P</p>
                 <div class="downloading text-center">
-                  <button type="button" class="btn">
-                    Download <i class="bi bi-download"></i>
-                  </button>
+                  <a href="http://localhost:3001/<%=datam.name%>">
+                    <button type="button" class="btn">
+                      Download <i class="bi bi-download"></i>
+                    </button>
+                  </a>
                 </div>
               </div>
               <div class="resolution_wise">
-                <p>Bhag Milkha Bhag (Hindi-English) - 720P</p>
-                <div class="downloading">
-                  <button type="button" class="btn">
-                    Download <i class="bi bi-download"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="resolution_wise">
-                <p>Bhag Milkha Bhag (Hindi-English) - 1080P</p>
-                <div class="downloading">
-                  <button type="button" class="btn">
-                    Download <i class="bi bi-download"></i>
-                  </button>
+                <p><%=datam.name%> (<%=datam.language%>) - 1080P</p>
+                <div class="downloading text-center">
+                  <a href="http://localhost:3001/<%=datam.name%>">
+                    <button type="button" class="btn">
+                      Download <i class="bi bi-download"></i>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -270,11 +276,14 @@
                 ></path>
               </svg>
             </div>
-            <% let rand1,rand2; %> <% rand1 = Math.floor(Math.random()*10);%> 
-            <% rand2 = Math.floor(Math.random()*10+10);%> 
-            <% for(let i = 0; i < 2;i++) { %>
+            <% let rand1,rand2; %> <% rand1 = Math.floor(Math.random()*10);%> <%
+            rand2 = Math.floor(Math.random()*10+10);%> <% for(let i = 0; i <
+            2;i++) { %>
             <section class="other_movies_head">
-              <a href="http://localhost:3000/inner/<%= data[rand1].name %> " class="images_post">
+              <a
+                href="http://localhost:3000/inner/<%= data[rand1].name %> "
+                class="images_post"
+              >
                 <img src="<%= data[rand1].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
                   <div class="post_infor">
@@ -306,7 +315,10 @@
                 </div>
               </a>
               <div style="width: 2%; height: auto"></div>
-              <a href="http://localhost:3000/inner/<%= data[rand2].name %> " class="images_post">
+              <a
+                href="http://localhost:3000/inner/<%= data[rand2].name %> "
+                class="images_post"
+              >
                 <img
                   width="284"
                   height="420"
@@ -329,7 +341,9 @@
                         style="color: rgb(244, 197, 24); margin-right: 1%"
                       ></i>
                       <h3 style="margin: 0px">
-                        <%= data[rand2].imdb %><span style="color: #555555">/10 </span>
+                        <%= data[rand2].imdb %><span style="color: #555555"
+                          >/10
+                        </span>
                       </h3>
                     </div>
                     <hr />
@@ -340,10 +354,9 @@
                     <h3>300MB,1GB,2.5GB</h3>
                   </div>
                 </div>
-              </a >
+              </a>
             </section>
-            <% rand1++;rand2++; %> 
-            <% } %>
+            <% rand1++;rand2++; %> <% } %>
           </div>
 
           <!-- FIXME: Screen Shot-->
