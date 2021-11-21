@@ -46,7 +46,7 @@ app.get("/inner/:name", (req, res) => {
     type ="series";
   }
 
-  console.log(type,datam)
+ 
   res.render("inner", { datam, data ,type});
   // res.render("inner",{datam:data[name.valueOf()]});
 });
@@ -498,7 +498,7 @@ app.get("/page/:num", (req, res) => {
 
 // SEARCH :
 app.get("/search", (req, res) => {
-  console.log(req.query);
+  
   const { q } = req.query;
 
   let str = q.toLowerCase();
