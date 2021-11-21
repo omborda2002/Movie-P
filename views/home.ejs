@@ -113,7 +113,14 @@
       <div class="pageNumberBar">
         <div class="pagination">
           <ul class="pagination-2">
-            <li class="page-number prev"><a href="#">&laquo;</a></li>
+            if (parseInt(num) == 0) {
+              <a href="http://localhost:3000/">
+              <li class="page-number prev">&laquo;</li>
+              </a>
+            }
+            <a href="http://localhost:3000/page/<%=parseInt(num)-1%>">
+              <li class="page-number prev">&laquo;</li>
+            </a>
             <% for(let i = 0;i < data.length/10 ; i++){ %> <% if(num==i){%>
 
             <a href="http://localhost:3000/page/<%= i %> "
@@ -125,7 +132,7 @@
               ><li class="page-number"><%= i %></li>
             </a>
             <%}%> <% } %>
-            <li class="page-number prev"><a href="#">&raquo;</a></li>
+            <a href="http://localhost:3000/page/<%=parseInt(num)+1%>"><li class="page-number prev">&raquo;</li></a>
           </ul>
         </div>
 
