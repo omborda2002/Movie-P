@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const data = require("./data.json");
 let datam;
 let arr = [];
+let type;
 // TODO: JSON DATA
 // fs.readFile("./data.json", "utf8", (err, jsonString) => {
 //   if (err) {
@@ -38,8 +39,15 @@ app.get("/inner/:name", (req, res) => {
       break;
     }
   }
-  
-  res.render("inner", { datam, data });
+
+  if (datam.type == "hollywood" || datam.type == "bollywood" ||datam.type == "Hollywood" ||datam.type =="Bollywood")  {
+    type = "movie";
+  } else {
+    type ="series";
+  }
+
+  console.log(type,datam)
+  res.render("inner", { datam, data ,type});
   // res.render("inner",{datam:data[name.valueOf()]});
 });
 

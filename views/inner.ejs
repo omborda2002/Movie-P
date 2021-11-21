@@ -27,10 +27,18 @@
             <div class="movie_name">
               <h1><%= datam.name %></h1>
               <p>
-                <%= datam.year %> <i class="bi bi-dot"></i>U<i
-                  class="bi bi-dot"
-                ></i
-                ><%=datam.other.length %>
+                <%= datam.year %> <i class="bi bi-dot"></i>U
+                <% if(type == "movie"){%>
+                  <i
+                    class="bi bi-dot"
+                  ></i
+                  ><%=datam.other.length %>
+                <%} else {%>
+                  <i
+                    class="bi bi-dot"
+                  ></i
+                  > Episode : <%=datam.episodes%>
+                <%}%>
               </p>
             </div>
             <div class="starRating">
