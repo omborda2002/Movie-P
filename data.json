@@ -1,23 +1,30 @@
 [
   {
-    "name": "Benedetta",
-    "year": 2021,
-    "imdb": 6.8,
-    "genre": "Drama",
-    "post_ss": "https://m.media-amazon.com/images/M/MV5BNGRiMmEzOTYtYThjZC00ZDk3LThmN2YtNzYxY2FjZWYyMjU0XkEyXkFqcGdeQXVyMTE1MzI2NzIz._V1_FMjpg_UX1000_.jpg",
-    "ss_url": [
-      "https://i.imgur.com/HOca81t.jpg"
+    "name" : "Money Heist Season 5",
+    "episodes" : 5,
+    "season": 5,
+    "year" : 2021,
+    "imdb" :8.2 ,
+    "genre" : "Thriller ",
+    "post_ss" : "https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "ss_url" : [
+       "https://i.imgur.com/ruj87ef.png",
+       "https://i.imgur.com/PWDIybq.jpg",
+       "https://i.imgur.com/9Tkvojr.jpg"
+       
     ],
-    "download_links": [
-      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c",
-      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c",
-      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c"
+    "download_links" : [
+       "https://new.gdtot.top/file/299555074",
+       "https://new.gdtot.top/file/394494544",
+       "https://new.gdtot.top/file/338434470",
+       "https://new.gdtot.top/file/414071943",
+       "https://new.gdtot.top/file/398587461"
     ],
-    "language": "Dual Audio",
-    "type": "hollywood",
-    "other": {
-      "length": "2h 6min",
-      "popularity": 124
+    "language" : "Dual Audio",
+    "type" : "Web-Series",
+    "other" : {
+
+      "populty" : 154
     }
   },
   {
@@ -430,6 +437,27 @@
     "other": {
       "length": "3h 6min",
       "popularity": 65
+    }
+  },
+  {
+    "name": "Benedetta",
+    "year": 2021,
+    "imdb": 6.8,
+    "genre": "Drama",
+    "post_ss": "https://m.media-amazon.com/images/M/MV5BNGRiMmEzOTYtYThjZC00ZDk3LThmN2YtNzYxY2FjZWYyMjU0XkEyXkFqcGdeQXVyMTE1MzI2NzIz._V1_FMjpg_UX1000_.jpg",
+    "ss_url": [
+      "https://i.imgur.com/HOca81t.jpg"
+    ],
+    "download_links": [
+      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c",
+      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c",
+      "https://gofile.io/d/52977652-08f5-42d2-bc8a-8543d5d8822c"
+    ],
+    "language": "Dual Audio",
+    "type": "hollywood",
+    "other": {
+      "length": "2h 6min",
+      "popularity": 124
     }
   },
   {
