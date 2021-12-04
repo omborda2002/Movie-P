@@ -33,7 +33,7 @@
             <section class="other_movies_head">
               <a
                 class="images_post"
-                href="http://localhost:3000/inner/<%= data[i].name %> "
+                href="http://moviecity.tech/inner/<%= data[i].name %> "
               >
                 <img src="<%=data[ i].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
@@ -68,7 +68,7 @@
               <% if(temp>data.length-1){}else{%>
               <a
                 class="images_post"
-                href="http://localhost:3000/inner/<%= data[temp].name %> "
+                href="http://moviecity.tech/inner/<%= data[temp].name %> "
               >
                 <img src="<%=data[temp].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
@@ -115,26 +115,26 @@
         <div class="pagination">
           <ul class="pagination-2">
             <%if (parseInt(num) == 0) { %>
-              <a href="http://localhost:3000/">
+              <a href="http://moviecity.tech/">
               <li class="page-number prev">&laquo;</li>
               </a>
             <%}else{ %>
-            <a href="http://localhost:3000/page/<%=parseInt(num)-1%>">
+            <a href="http://moviecity.tech/page/<%=parseInt(num)-1%>">
               <li class="page-number prev">&laquo;</li>
             </a>
             <% } %>
             <% for(let i = 0;i < data.length/10 ; i++){ %> <% if(num==i){%>
 
-            <a href="http://localhost:3000/page/<%= i %> "
+            <a href="http://moviecity.tech/page/<%= i %> "
               ><li class="page-number active"><%= i %></li>
             </a>
 
             <%}else{%>
-            <a href="http://localhost:3000/page/<%= i %> "
+            <a href="http://moviecity.tech/page/<%= i %> "
               ><li class="page-number"><%= i %></li>
             </a>
             <%}%> <% } %>
-            <a href="http://localhost:3000/page/<%=parseInt(num)+1%>"><li class="page-number prev">&raquo;</li></a>
+            <a href="http://moviecity.tech/page/<%=parseInt(num)+1%>"><li class="page-number prev">&raquo;</li></a>
           </ul>
         </div>
 
