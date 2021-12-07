@@ -514,3 +514,12 @@ span.tog {
     background-color: #f3f4f2;
   }
 }
+
+@media screen and (max-width: 290px) {
+  .form-outline {
+    width: 130px;
+  }
+  .rect{
+    margin-top: -31%;
+  }
+}
