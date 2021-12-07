@@ -139,6 +139,7 @@ button.btn.btn-link {
 }
 span.tog {
   display: none;
+  font-size: 23px !important;
 }
 .sidenav .closebtn {
   position: absolute;
@@ -534,12 +535,13 @@ span.tog {
   }
   span.tog {
     display: block;
+    font-size: 23px !important;
     background-color: #6b6b6b;
   }
   .tog {
     display: block;
     color: white;
-    height: 50px;
+    height: auto;
     margin: 0px;
     border-radius: 9px;
     padding: 0px 5px;
@@ -710,5 +712,26 @@ span.tog {
   }
   .random_posts .random_lable {
     margin-bottom: 5%;
+  }
+}
+
+
+
+/* SAVAN MEDIA QUERY */
+@media screen and (max-width: 400px) {
+  span.tog {
+    width: 30px;
+    font-size: 23px !important;
+    height: auto;
+  }
+
+  .form-outline {
+    width: 150px;
+  }
+
+  .pagination-2 .page-number {
+    padding: 4px 8px;
+    color: #000000;
+    background-color: #f3f4f2;
   }
 }

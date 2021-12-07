@@ -11,7 +11,7 @@
     <!-- CSS LINK -->
     <link rel="stylesheet" href="/home.css" />
     <!-- TODO: Head-links -->
-    <link rel="shortcut icon" type="image/png" href="/Asset3.png"/>
+    <link rel="shortcut icon" type="image/png" href="/Asset3.png" />
     <%- include("partials/links") %>
   </head>
 
@@ -110,36 +110,48 @@
 
       <!-- TODO: FOOTER HERE -->
 
-      <!-- page-number -->
       <div class="pageNumberBar">
         <div class="pagination">
           <ul class="pagination-2">
             <%if (parseInt(num) == 0) { %>
+            <div class="pad">
               <a href="http://moviecity.tech/">
-              <li class="page-number prev">&laquo;</li>
+                <li class="page-number prev">&laquo;</li>
               </a>
-            <%}else{ %>
-            <a href="http://moviecity.tech/page/<%=parseInt(num)-1%>">
-              <li class="page-number prev">&laquo;</li>
-            </a>
-            <% } %>
-            <% for(let i = 0;i < data.length/10 ; i++){ %> <% if(num==i){%>
+            </div>
 
-            <a href="http://moviecity.tech/page/<%= i %> "
-              ><li class="page-number active"><%= i %></li>
-            </a>
+            <%}else{ %>
+            <div class="pad">
+              <a href="http://moviecity.tech/page/<%=parseInt(num)-1%>">
+                <li class="page-number prev">&laquo;</li>
+              </a>
+            </div>
+
+            <% } %> <% for(let i = 0;i < data.length/10 ; i++){ %> <%
+            if(num==i){%>
+            <div class="pad">
+              <a href="http://moviecity.tech/page/<%= i %> "
+                ><li class="page-number active"><%= i %></li>
+              </a>
+            </div>
 
             <%}else{%>
-            <a href="http://moviecity.tech/page/<%= i %> "
-              ><li class="page-number"><%= i %></li>
-            </a>
+            <div class="pad">
+              <a href="http://moviecity.tech/page/<%= i %> "
+                ><li class="page-number"><%= i %></li>
+              </a>
+            </div>
             <%}%> <% } %>
-            <a href="http://moviecity.tech/page/<%=parseInt(num)+1%>"><li class="page-number prev">&raquo;</li></a>
+            <div class="pad">
+              <a href="http://moviecity.tech/page/<%=parseInt(num)+1%>"
+                ><li class="page-number prev">&raquo;</li></a
+              >
+            </div>
           </ul>
         </div>
 
         <div class="foooter">
-          <p>SITE NAME ©</p>
+          <p>MOVIECITY.TECH ©</p>
         </div>
       </div>
     </div>

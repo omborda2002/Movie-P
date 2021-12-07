@@ -8,7 +8,7 @@
   display: block;
   flex-direction: column;
   justify-content: space-evenly;
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   z-index: initial;
 }
 
@@ -123,10 +123,10 @@ button.btn.btn-link {
   display: block;
   transition: 0.3s;
 }
-#alag{
+#alag {
   margin: 0px;
 }
-.card{
+.card {
   margin: 2%;
 }
 .sidenav button {
@@ -225,14 +225,40 @@ span.tog {
   margin: auto;
 }
 
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
 .pagination ul {
-  margin: 2em auto;
+  margin: 1em auto;
+  flex-wrap: wrap;
+  display: flex;
   padding-left: 0;
   list-style-type: none;
+}
+.pad {
+  margin: 7px;
 }
 .pagination-2 {
   color: #000000;
 }
+
+.pagination-2 .pad .page-number {
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  background-color: #f3f4f2;
+}
+
+.pagination-2 .pad .page-number:hover {
+  background-color: #d9dcd6;
+}
+
 .page-number {
   display: inline;
 }
@@ -243,15 +269,6 @@ span.tog {
 }
 
 /* Pagination 2 */
-.pagination-2 .page-number {
-  padding: 8px 16px;
-  color: #000000;
-  background-color: #f3f4f2;
-}
-
-.pagination-2 .page-number:hover {
-  background-color: #d9dcd6;
-}
 
 .pagination-2 .active {
   border-radius: 4px;
@@ -285,8 +302,12 @@ span.tog {
 /* --------------------------------------------------------------------------- */
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 /* TODO:  MEDIA QUERYS*/
 @media screen and (max-width: 360px) {
@@ -308,12 +329,13 @@ span.tog {
   }
   span.tog {
     display: block;
+    font-size: 23px;
     background-color: #6b6b6b;
   }
   .tog {
     display: block;
     color: white;
-    height: 50px;
+    height: auto;
     margin: 0px;
     border-radius: 9px;
     padding: 0px 5px;
@@ -361,7 +383,6 @@ span.tog {
   .Navbar__Items {
     flex-direction: column;
   }
-  
 }
 
 /* -----------------NEW------------------- */
@@ -472,5 +493,24 @@ span.tog {
   }
   .random_posts .random_lable {
     margin-bottom: 5%;
+  }
+}
+
+/* SAVAN MEDIA QUERY */
+@media screen and (max-width: 400px) {
+  span.tog {
+    width: 30px;
+    font-size: 23px;
+    height: auto;
+  }
+
+  .form-outline {
+    width: 150px;
+  }
+
+  .pagination-2 .page-number {
+    padding: 4px 8px;
+    color: #000000;
+    background-color: #f3f4f2;
   }
 }
