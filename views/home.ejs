@@ -10,8 +10,10 @@
     <title>Home</title>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="/home.css" />
+    
+
     <!-- TODO: Head-links -->
-    <link rel="shortcut icon" type="image/png" href="/Asset3.png" />
+    <link rel="shortcut icon" type="image/png" href="/titleLogo.png" />
     <%- include("partials/links") %>
   </head>
 
@@ -33,7 +35,7 @@
             <section class="other_movies_head">
               <a
                 class="images_post"
-                href="http://moviecity.tech/inner/<%= data[i].name %> "
+                href="https://moviecity.tech/inner/<%= data[i].name %> "
               >
                 <img src="<%=data[ i].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
@@ -68,7 +70,7 @@
               <% if(temp>data.length-1){}else{%>
               <a
                 class="images_post"
-                href="http://moviecity.tech/inner/<%= data[temp].name %> "
+                href="https://moviecity.tech/inner/<%= data[temp].name %> "
               >
                 <img src="<%=data[temp].post_ss %>" alt="" srcset="" />
                 <div class="name_otherPosts p-4">
@@ -115,14 +117,14 @@
           <ul class="pagination-2">
             <%if (parseInt(num) == 0) { %>
             <div class="pad">
-              <a href="http://moviecity.tech/">
+              <a href="https://moviecity.tech/">
                 <li class="page-number prev">&laquo;</li>
               </a>
             </div>
 
             <%}else{ %>
             <div class="pad">
-              <a href="http://moviecity.tech/page/<%=parseInt(num)-1%>">
+              <a href="https://moviecity.tech/page/<%=parseInt(num)-1%>">
                 <li class="page-number prev">&laquo;</li>
               </a>
             </div>
@@ -130,20 +132,20 @@
             <% } %> <% for(let i = 0;i < data.length/10 ; i++){ %> <%
             if(num==i){%>
             <div class="pad">
-              <a href="http://moviecity.tech/page/<%= i %> "
+              <a href="https://moviecity.tech/page/<%= i %> "
                 ><li class="page-number active"><%= i %></li>
               </a>
             </div>
 
             <%}else{%>
             <div class="pad">
-              <a href="http://moviecity.tech/page/<%= i %> "
+              <a href="https://moviecity.tech/page/<%= i %> "
                 ><li class="page-number"><%= i %></li>
               </a>
             </div>
             <%}%> <% } %>
             <div class="pad">
-              <a href="http://moviecity.tech/page/<%=parseInt(num)+1%>"
+              <a href="https://moviecity.tech/page/<%=parseInt(num)+1%>"
                 ><li class="page-number prev">&raquo;</li></a
               >
             </div>

@@ -12,7 +12,10 @@
   transition: margin-left 0.5s;
   z-index: initial;
 }
-
+.flex-shrink-0.flex.items-center.bothPadding {
+  width: 200px;
+  height: auto;
+}
 /* TODO: NAVBAR CSS  */
 nav {
   width: 100%;
@@ -21,8 +24,7 @@ a {
   text-align: center;
 }
 .iconSearch {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 1% 2%;
 }
 a .dropbtn {
   border: 3px solid rgb(244, 197, 24);
@@ -38,7 +40,7 @@ a .dropbtn {
 
 .dropbtn:hover {
   opacity: 0.95;
-  border: 3px solid #ffffff;
+  border: 3px solid #90ff00;
   transition: 500ms;
 }
 
@@ -153,7 +155,7 @@ span.tog {
 
 #page {
   margin-top: 40px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   min-height: 100px;
   clear: both;
   width: 100%;
@@ -292,11 +294,14 @@ span.tog {
   width: 100%;
   height: auto;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row;
   margin-top: 2%;
 }
 
 .ss_inner {
-  width: 750px;
+  width: 70%;
   height: auto;
   background-color: #1b1b1b;
 }
@@ -322,8 +327,10 @@ span.tog {
   /* margin: 10px; */
   width: 720px;
   height: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
+      margin-left: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: auto;
 }
 .ss_images img:last-child {
   margin-bottom: 0px;
@@ -332,7 +339,6 @@ span.tog {
 .download_btn {
   width: 100%;
   height: auto;
-  margin-top: 2%;
   display: flex;
   flex-direction: column;
   color: #000000;
@@ -363,6 +369,7 @@ span.tog {
 .download_area {
   align-self: center;
   width: 80%;
+  margin-top: 4%;
   height: auto;
   text-align: center;
 }
@@ -370,7 +377,7 @@ span.tog {
   width: 100%;
   display: flex;
   margin: 2% 0px;
-
+  margin-top: 3%;
   font-family: "Roboto", sans-serif;
   flex-direction: row;
 }
@@ -450,6 +457,7 @@ span.tog {
   display: flex;
   flex-direction: row;
   flex-wrap: row;
+  margin-top: 1%;
 }
 .other_movies_head:last-child {
   margin-bottom: 3%;
@@ -492,7 +500,7 @@ span.tog {
 /* TODO: footer */
 .foooter {
   width: 100%;
-  background-color: #16425b;
+  background-color: #14213d;
   height: 50px;
   text-align: center;
 }
@@ -504,7 +512,58 @@ span.tog {
   bottom: 0px;
   margin-bottom: 0px;
 }
+.ads {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 2%;
+}
+.ss_images {
+  margin-top: 5%;
+}
 
+.ad{
+  width: 100%;
+  height: auto;
+}
+.adb {
+  width: fit-content;
+  height: auto;
+  margin: 10px auto;
+  display: none;
+}
+.adb2{
+  display: block;
+  width: fit-content;
+  height: auto;
+  margin: 10px auto;
+}
+.downAds{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.adb3{
+  width: fit-content;
+  height: auto;
+  margin: 0px auto;
+  display: block;
+
+}
+.adb4{
+  display: none;
+  width: fit-content;
+  height: auto;
+  margin: 0px auto;
+}
+
+.downAds div{
+  margin-left: auto;
+  margin-right: auto;
+}
 /* --------------------------------------------------------------------------- */
 
 /* TODO:  MEDIA QUERYS*/
@@ -551,7 +610,14 @@ span.tog {
     justify-content: space-evenly;
   }
 }
-
+@media screen and (max-width: 780px) {
+  .adb2{
+    display: none;
+  }
+  .adb{
+    display: block;
+  }
+}
 @media screen and (max-width: 720px) {
 }
 
@@ -589,6 +655,12 @@ span.tog {
   .Navbar__Items {
     flex-direction: column;
   }
+  .adb3{
+    display: none;
+  }
+  .adb4{
+    display: block;
+  }
 }
 
 /* -----------------NEW------------------- */
@@ -624,6 +696,21 @@ span.tog {
     height: 122px;
     margin-top: -10%;
     margin-left: -3%;
+  }
+  .ss_main {
+    display: flex;
+    flex-direction: column;
+  }
+  #mo{
+    display: none;
+  }
+  .mo{
+    display: none;
+    margin: 0px auto;
+  }
+  #adb{
+    display: block;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -738,7 +825,7 @@ span.tog {
   .form-outline {
     width: 130px;
   }
-  .rect{
+  .rect {
     margin-top: -31%;
   }
 }

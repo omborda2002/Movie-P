@@ -11,7 +11,10 @@
   transition: margin-left 0.5s;
   z-index: initial;
 }
-
+.flex-shrink-0.flex.items-center.bothPadding {
+  width: 200px;
+  height: auto;
+}
 /* TODO: NAVBAR CSS  */
 nav {
   width: 100%;
@@ -20,8 +23,7 @@ a {
   text-align: center;
 }
 .iconSearch {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 1% 2%;
 }
 a .dropbtn {
   border: 3px solid rgb(244, 197, 24);
@@ -37,7 +39,7 @@ a .dropbtn {
 
 .dropbtn:hover {
   opacity: 0.95;
-  border: 3px solid #ffffff;
+  border: 3px solid #90ff00;
   transition: 500ms;
 }
 
@@ -152,7 +154,6 @@ span.tog {
 /* FIXME: Random Section */
 #page {
   margin-top: 40px;
-  margin-bottom: 40px;
   min-height: 100px;
   clear: both;
   width: 100%;
@@ -160,7 +161,9 @@ span.tog {
   padding: 1%;
   background-color: rgb(0, 10, 29);
 }
-
+.pagination{
+  justify-content: center;
+}
 .random_posts {
   width: 100%;
   height: auto;
@@ -225,40 +228,27 @@ span.tog {
   margin: auto;
 }
 
-.pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 0;
-  list-style: none;
+.container {
+  font-family: Arial Helvetica sans-serif;
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
 }
 
 .pagination ul {
-  margin: 1em auto;
-  flex-wrap: wrap;
-  display: flex;
+  margin: 2em auto;
   padding-left: 0;
   list-style-type: none;
 }
-.pad {
-  margin: 7px;
-}
 .pagination-2 {
   color: #000000;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.pagination-2 .pad .page-number {
-  padding: 8px 16px;
-  font-weight: 400;
-  font-size: 20px;
-  color: #000000;
-  background-color: #f3f4f2;
+.pad {
+  margin: 8px 4px;
 }
-
-.pagination-2 .pad .page-number:hover {
-  background-color: #d9dcd6;
-}
-
 .page-number {
   display: inline;
 }
@@ -269,6 +259,15 @@ span.tog {
 }
 
 /* Pagination 2 */
+.pagination-2 .page-number {
+  padding: 8px 16px;
+  color: #000000;
+  background-color: #f3f4f2;
+}
+
+.pagination-2 .page-number:hover {
+  background-color: #d9dcd6;
+}
 
 .pagination-2 .active {
   border-radius: 4px;
@@ -283,10 +282,12 @@ span.tog {
 .pagination-2 .active a {
   color: #ffffff;
 }
+
 /* TODO: footer */
+
 .foooter {
   width: 100%;
-  background-color: rgb(0, 10, 29);
+  background-color: #14213d;
   height: 50px;
   text-align: center;
 }
@@ -329,7 +330,7 @@ span.tog {
   }
   span.tog {
     display: block;
-    font-size: 23px;
+    font-size: 23px !important;
     background-color: #6b6b6b;
   }
   .tog {
@@ -500,19 +501,19 @@ span.tog {
 @media screen and (max-width: 400px) {
   span.tog {
     width: 30px;
-    font-size: 23px;
+    font-size: 23px !important;
     height: auto;
   }
 
   .form-outline {
     width: 150px;
   }
-
   .pagination-2 .page-number {
     padding: 4px 8px;
     color: #000000;
     background-color: #f3f4f2;
   }
+
 }
 
 @media screen and (max-width: 290px) {
